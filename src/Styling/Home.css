@@ -1,0 +1,22 @@
+.App {
+   background: url("/public/Home-page/mandir.jpg") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   block-size: 790px;
+   
+}
+
+.App button{
+   
+   display: inline-block;
+   position: relative;
+   left: 45%;
+   margin-left: 5px;
+}
+
+.introduction{
+   text-align: center;
+   padding-top: 5%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
