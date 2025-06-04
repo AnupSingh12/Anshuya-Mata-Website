@@ -44,7 +44,7 @@ import "../../Styling/TempleAdministration.css"
         <div className="row justify-content-center mb-5">
           <div className="col-md-6 head-admin-card text-center">
             <img src="/assets/images/head.jpg" alt="Head of Administration" className="img-fluid rounded-circle head-img mb-3" />
-            <h3 className="head-name">Shri Ramesh Bhatt</h3>
+            <h3 className="head-name">Shri Bhagat Singh Bisht</h3>
             <p className="head-role">Chairperson, Ansuya Mandir Trust</p>
           </div>
         </div>
