@@ -1,7 +1,38 @@
 
+import "../../Styling/FestivalsAndRituals.css"
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
+
+const festivals = [
+  {
+    title: 'Basant Panchami',
+    description:
+      'On this occasion, the local people prepare Arsha and offer it as Prasad to the Goddess in the court of the Goddess. They pray to the Goddess for the prosperity of the region. Arsha is distributed as Prasad to every family of Mandal Valley.',
+    image: 'basant.jpg',
+  },
+  {
+    title: 'Raksha Bandhan',
+    description:
+      'It is known as Raksha Bandhan festival (Rishitarpani). On this occasion, special Puja Kothi is set up and the Goddess is worshipped. The Goddess\'s court is decorated with Brahma Kamals. These Brahma Kamals are distributed as prasad to each family in the villages that are given by the members of the AMT committee (News - Nali).',
+    image: 'raksha.jpg',
+  },
+  {
+    title: 'Navratari Festival',
+    description:
+      'On the occasion of Navratri festival, Navratri Paath is organized every year by the A.M.T. committee in the temple of Mata. In the Sharaday Navratri of autumn, Navratri Paath is done in Anasuya temple and in the Tulagat Navratri of Chaitra month, Navratri Paath is done in Anasuya temple Rathdoli temple Mandal for the entire 10 days. On the occasion of Vijayadashmi festival, Navratri festival is concluded with the distribution of greenery prasad and Puja Aarti Bandhan.',
+    image: 'navratri.jpg',
+  },
+];
 
 
 export function FestivalsAndRituals(){
+
+     useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
     return(
         <div>
           <div>
@@ -17,7 +48,7 @@ export function FestivalsAndRituals(){
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship Rituals</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship And Management</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
                   
@@ -26,27 +57,31 @@ export function FestivalsAndRituals(){
             </nav>
           
           </div>
-            <h1>Festivals and Rituals</h1>
-            <p>During auspicious events and festivals, large crowds of pilgrims gather, including those from distant places:</p>
-            <ul>
-                <ol>Basant Panchami</ol>
-                <li>On this occasion, devotees form queues and seek blessings from the goddess.</li>
-                <li>The trust arranges offerings and prayer rituals.</li>
-
-                <ol>Raksha Bandhan (Shravani Parv)</ol>
-                <li>On this day, locals celebrate by tying sacred threads and praying for protection.</li>
-                <li>Children receive blessings and the village receives communal well-being.</li>
-
-                <ol>Security Management (Shrikrishna Janmashtami)</ol>
-                <li>Special worship is conducted in the name of Shrikrishna.</li>
-                <li>The goddess’s doors are decorated and offerings are collected.</li>
-                <li>These offerings are distributed to village families in the form of blessings.</li>
-
-                <ol> Navratri Parv</ol>
-                <li>The Navratri recitation program is held annually by the trust.</li>
-                <li>Special worship is conducted for ten days during the holy month.</li>
-                <li>On Vijayadashami, devotional offerings and food are distributed after the culmination of the event.</li>
-            </ul>
+    <section className="festivals-section">
+      <div className="overlay" />
+      <div className="festivals-content">
+        <h1 className="festivals-title" data-aos="fade-down">
+          Festivals & Rituals
+        </h1>
+        {festivals.map((festival, index) => (
+          <div
+            className={`festival-card ${index % 2 === 0 ? 'left' : 'right'}`}
+            key={index}
+            data-aos="fade-up"
+          >
+            <img
+              src={`./assets/images/${festival.image}`}
+              alt={festival.title}
+              className="festival-image"
+            />
+            <div className="festival-info">
+              <h2>{festival.title}</h2>
+              <p>{festival.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
         </div>
     )
 }

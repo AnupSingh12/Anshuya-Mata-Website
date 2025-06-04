@@ -1,0 +1,130 @@
+/* Base Styles */
+.body {
+  background: linear-gradient(to bottom, #fff3e0, #ffe0f0);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Divine Floating Particles */
+.body::before,
+.body::after {
+  content: '';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-image: radial-gradient(#ffd700 1px, transparent 1px),
+    radial-gradient(#ffc107 1px, transparent 1px),
+    radial-gradient(#fff3e0 2px, transparent 2px);
+  background-size: 80px 80px, 100px 100px, 150px 150px;
+  animation: floatLights 25s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes floatLights {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: 800px 600px, 600px 800px, 1000px 1000px;
+  }
+}
+
+/* Hero Section */
+.anasuya-hero {
+  background: linear-gradient(120deg, #7b4397, #dc2430);
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  animation: fadeInDown 1s ease-out;
+}
+
+.anasuya-hero h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styling */
+.fair-section {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-left: 5px solid #dc2430;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.fair-section:hover {
+  transform: scale(1.01);
+}
+
+/* Section Images */
+.fair-section img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+/* Gallery Section */
+.gallery-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border: 3px solid #fce4ec;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-image:hover {
+  transform: scale(1.12) translateY(-5px);
+  border-color: #f06292;
+  box-shadow: 0 10px 20px rgba(240, 98, 146, 0.4);
+  z-index: 2;
+}
+
+/* Section Headers (optional enhancement) */
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #5e3370;
+  text-shadow: 1px 1px #f8bbd0;
+}
+
+/* Footer */
+.anasuya-footer {
+  background-color: #7b4397;
+  color: white;
+  font-size: 0.95rem;
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

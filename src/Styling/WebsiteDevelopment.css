@@ -1,0 +1,123 @@
+
+
+/* Background Animation */
+.website-dev-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
+  position: relative;
+}
+
+.swirling-bg::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 180deg at 50% 50%, #ffecd2, #fcb69f, #ffecd2);
+  animation: swirl 20s linear infinite;
+  z-index: 1;
+  opacity: 0.08;
+}
+
+/* Swirl animation */
+@keyframes swirl {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Glass card */
+.glass-card {
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #fbeaff;
+  text-shadow: 0 0 10px rgba(251, 234, 255, 0.6);
+}
+
+.section-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* Signature box */
+.signature-box {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: #ffd9f4;
+  transition: transform 0.3s ease;
+}
+
+.signature-box:hover {
+  transform: translateY(-5px);
+  color: #ffe0f7;
+  text-shadow: 0 0 8px #ffc4f9;
+}
+
+/* Footer Styling */
+.temple-footer {
+  background: linear-gradient(135deg, #301934, #1a0f24);
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: #ffdff5;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+}
+
+.temple-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(90deg, #ffd1fa, #ffb5ff, #ffd1fa);
+  border-radius: 2px;
+  animation: glowBar 3s ease-in-out infinite;
+}
+
+@keyframes glowBar {
+  0%, 100% {
+    opacity: 0.3;
+    width: 60px;
+  }
+  50% {
+    opacity: 1;
+    width: 100px;
+  }
+}
+
+.footer-content p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}

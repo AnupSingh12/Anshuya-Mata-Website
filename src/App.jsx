@@ -7,7 +7,7 @@ import { NearBySites } from "./pages/english_pages/neraby_sites";
 import { AnnualFair } from "./pages/english_pages/annual_fair";
 import { TempleAdministration } from "./pages/english_pages/temple_administration";
 import { FestivalsAndRituals} from "./pages/english_pages/festivals_rituals";
-import { WorshipSystem } from './pages/english_pages/worship_system';
+import { WorshipAndManagementSystem} from './pages/english_pages/worshipAndManagement';
 import { WebsiteDevelopment } from "./pages/english_pages/website_development";
 
 
@@ -24,7 +24,7 @@ function App() {
       <Route path="/pages/english_pages/annual_fair" element={<AnnualFair/>} />
       <Route path="/pages/english_pages/temple_administration" element={<TempleAdministration/>} />
       <Route path="/pages/english_pages/festivals_rituals" element={<FestivalsAndRituals/>} />
-      <Route path="/pages/english_pages/worship_system" element={<WorshipSystem/>} />
+      <Route path="/pages/english_pages/worship_system" element={<WorshipAndManagementSystem/>} />
       <Route path="/pages/english_pages/website_development" element={<WebsiteDevelopment/>} /> 
     </Routes>
    </Router>

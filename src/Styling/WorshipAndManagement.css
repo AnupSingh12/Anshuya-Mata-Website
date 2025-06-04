@@ -1,0 +1,120 @@
+/* WorshipAndManagementSystem.css */
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.divine-background {
+  position: relative;
+  background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+  overflow: hidden;
+}
+
+.divine-background::before,
+.divine-background::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 11%);
+  background-size: 50px 50px;
+  animation: float-particles 30s linear infinite;
+  z-index: 0;
+}
+
+.divine-background::after {
+  animation-direction: reverse;
+}
+
+@keyframes float-particles {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50px, -100px);
+  }
+}
+
+.worship-section {
+  position: relative;
+  z-index: 1;
+  padding: 60px 0;
+  color: #333;
+}
+
+.worship-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #6b240c;
+  text-shadow: 1px 1px 2px #f8e3c8;
+}
+
+.worship-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.worship-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.worship-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #8a3600;
+}
+
+.worship-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+}
+
+.worship-image-wrapper {
+  flex: 1;
+  text-align: center;
+}
+
+.worship-image {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.worship-image:hover {
+  transform: scale(1.05);
+}
+
+.image-carousel {
+  padding: 30px 0;
+}
+
+.carousel-img {
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #542100;
+  background: rgba(255, 248, 240, 0.8);
+  padding: 20px;
+  border-left: 5px solid #d8a000;
+  border-radius: 10px;
+}

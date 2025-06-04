@@ -1,0 +1,91 @@
+.sacred-sites-section {
+  position: relative;
+  background-image: url('../../public/BackgroundImages/nearbyBackground.jpg'); /* Use your own image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  
+}
+
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px 0;
+}
+
+.site-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.site-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2);
+}
+
+.site-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.site-card-body {
+  padding: 15px;
+}
+
+.yatra-section {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.yatra-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+  backdrop-filter: blur(8px);
+}
+
+.yatra-item:hover {
+  transform: translateY(-5px);
+}
+
+.yatra-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.yatra-img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.45);
+}
+
+
+/* Optional: Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media (max-width: 768px) {
+  .yatra-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .yatra-img {
+    width: 220px;
+    height: 220px;
+  }
+}
