@@ -23,7 +23,7 @@ const sections = [
     image: "/Introduction/Doli.jpg"
   },
   {
-    content: "The day of Dattatreya’s birth is celebrated as Ansuya Mela, a traditional fair held at the temple since ancient times. Locally, the festival is called the Nauhini Mela. During this festival, devotees from various regions gather, and the temple premises are beautifully decorated. Women pilgrims stay near the temple, praying to Ansuya Mata. It is believed that by meditating during the night, divine visions are granted. At 4 AM, the temple doors open, and a grand worship is performed. A traditional spiritual discourse is then delivered to the gathering.",
+    content: "The day of Dattatreya's birth is celebrated as Ansuya Mela, a traditional fair held at the temple since ancient times. Locally, the festival is called the Nauhini Mela. During this festival, devotees from various regions gather, and the temple premises are beautifully decorated. Women pilgrims stay near the temple, praying to Ansuya Mata. It is believed that by meditating during the night, divine visions are granted. At 4 AM, the temple doors open, and a grand worship is performed. A traditional spiritual discourse is then delivered to the gathering.",
     image: "/Introduction/MataAtVillage.jpg"
   }
 ];

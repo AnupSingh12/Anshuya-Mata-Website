@@ -24,6 +24,7 @@ const yatraElements = [
   { img: '/YatraPath/pandavPratima.jpg', desc: 'Pandav Idols' },
   { img: '/YatraPath/kulhadiChinha.jpg', desc: 'Ax markings' },
   { img: '/YatraPath/prachinShilalekh.jpg', desc: 'Ancient inscriptions(Bablekha)' },
+  { img: '/YatraPath/', desc: 'Ratanyali God'},
 ];
 
  export function NearBySites(){
