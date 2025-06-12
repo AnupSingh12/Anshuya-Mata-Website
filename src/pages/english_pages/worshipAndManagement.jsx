@@ -27,7 +27,7 @@ export function WorshipAndManagementSystem(){
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
-                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/worship_system">Worship and Management</a> </li>
+                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/worship_system">Worship</a> </li>
                        <li class="nav-item"> <a class="nav-link " href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
                   
@@ -42,7 +42,7 @@ export function WorshipAndManagementSystem(){
       <div className="divine-background">
         <div className="container py-5">
           <h1 className="text-center worship-heading mb-5" data-aos="fade-down">
-            Worship and Management System
+            Worship 
           </h1>
 
           <div className="worship-card" data-aos="fade-up">
@@ -61,14 +61,9 @@ export function WorshipAndManagementSystem(){
 
           <div className="worship-card reverse" data-aos="fade-left">
             <div className="worship-content">
-              <h3 className="section-title">Management of the Ashram</h3>
+              <h3 className="section-title">Anasuya Rath Doli Temple</h3>
               <p>
-                Anasuya Ashram Management Board is done by the committee of 09 villages of the valley which is known as Anasuya Mandir Trust Committee.
-                The tenure of this committee is 05 years. 01 member is given to the committee by 09 villages of the valley.
-                The chairman of the committee is elected by the members of the general assembly who give (news naali) in the general meeting of the trust.
-                In this way AMT committee is formed. The chairman gives the responsibility of secretary and treasurer from among the members coming from the villages.
-                The work and responsibility of the respective posts are mentioned in the rules of the committee, according to which the work is carried out.
-                In a year, AMT committee calls 04 general meetings and the management of the temple is done by discussing in the management committee general assembly.
+                Anasuya Rath Doli Temple is situated in village Mandal. Where worship is performed from time to time. For the construction of Rath Doli, the land has been donated to Anasuya Mandir Trust Committee by Semwal Pandits of Mandal village, who are also the priests of Anasuya Mata. Anasuya Rath Doli Temple is situated on this land.
               </p>
             </div>
             <div className="worship-image-wrapper">
