@@ -23,7 +23,7 @@ export function AnnualFair(){
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
-                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/Donation">Donation</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
                   
@@ -40,7 +40,7 @@ export function AnnualFair(){
       </header>
 
       <div className="container py-5">
-        {/* Section 1 */}
+        
         <div className="row mb-5 align-items-center fair-section">
           <div className="col-md-6 mb-4 mb-md-0">
             <img src="/MataAnshuyaPhoto/a.jpg" className="img-fluid rounded shadow" alt="Temple Procession" />
@@ -54,7 +54,7 @@ export function AnnualFair(){
           </div>
         </div>
 
-        {/* Section 2 */}
+        
         <div className="row mb-5 align-items-center fair-section flex-md-row-reverse">
           <div className="col-md-6 mb-4 mb-md-0">
             <img src="/MataAnshuyaPhoto/b.jpg" className="img-fluid rounded shadow" alt="Cultural Night" />
@@ -68,7 +68,7 @@ export function AnnualFair(){
           </div>
         </div>
 
-        {/* Section 3 */}
+        
         <div className="row mb-5 align-items-center fair-section">
           <div className="col-md-6 mb-4 mb-md-0">
             <img src="/MataAnshuyaPhoto/c.jpg" className="img-fluid rounded shadow" alt="Raj Bhog Prasad" />
@@ -82,7 +82,7 @@ export function AnnualFair(){
           </div>
         </div>
 
-        {/* Gallery */}
+        
         <div className="row text-center my-4">
           <div className="col-12 mb-3">
             <h2 className="text-dark">Fair Gallery</h2>
