@@ -7,16 +7,16 @@ import 'aos/dist/aos.css';
 
 const festivals = [
   {
-    title: 'बसन्त पंचम',
+    title: 'बसन्त पंचमी',
     description:
-      'इस अवसर पर माता के दरबार में क्षेत्रीय लोगों द्वारा अरशा बनाकर माता को भोग प्रसाद अर्पित किया जाता है। एवं क्षेत्रीय खुशहाली हेत ु माता से प्रार्थना की जाती है। प्रसाद स्वरूप अरशा मण्डल घाटी के प्रत्येक परिवार को वितरित किया जाता है।.',
-    image: 'basant.jpg',
+      'इस अवसर पर माता के दरबार में क्षेत्रीय लोगों द्वारा अरशा बनाकर माता को भोग प्रसाद अर्पित किया जाता है। एवं क्षेत्रीय खुशहाली हेतु माता से प्रार्थना की जाती है। प्रसाद स्वरूप अरशा मण्डल घाटी के प्रत्येक परिवार को वितरित किया जाता है।.',
+    image: 'basnatPanchami.jpg',
   },
   {
     title: 'रक्षाबन्धन',
     description:
-      'रक्षाबन्धन पर्व (ऋषितर्पणी) के नाम से जाना जाता है। इस अवसर पर विशेष पूजा कोठी लगाकर माता की पूजा की जाती है। एवं ब्रह्मकमलों से माता का दरवार सजाया जाता है। इन्हीं ब्रह्म कमलों को अ०म०ट्र० समिति के सदस्य गांव (न्यूज - नाली) देन े वाले गांवों में प्रति परिवार प्रसाद स्वरूप वितरित किये जाते हैं।',
-    image: 'raksha.jpg',
+      'रक्षाबन्धन पर्व (ऋषितर्पणी) के नाम से जाना जाता है। इस अवसर पर विशेष पूजा कोठी लगाकर माता की पूजा की जाती है। एवं ब्रह्मकमलों से माता का दरवार सजाया जाता है। इन्हीं ब्रह्म कमलों को अ०म०ट्र० समिति के सदस्य गांव (न्यूज - नाली) देने वाले गांवों में प्रति परिवार प्रसाद स्वरूप वितरित किये जाते हैं।',
+    image: 'RakhaBandhan.jpg',
   },
   {
     title: 'नवरात्रि पर्व',
@@ -49,6 +49,7 @@ export function FestivalsAndRitualsHindi(){
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन</a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा एवं प्रबंधन</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/DonationHindi">दान-पुण्य </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WebsiteDevelopmentHindi">वेबसाइट विकास</a> </li>
                      </ul>
                   
@@ -61,9 +62,9 @@ export function FestivalsAndRitualsHindi(){
       <div className="overlay" />
       <div className="festivals-content">
         <h1 className="festivals-title" data-aos="fade-down">
-          आश्रम मे ं समय-समय पर लगने वाले (मनाय े जान े वाले) तीज त्यौहार
+          आश्रम में समय-समय पर लगने वाले (मनाये जाने वाले) तीज त्यौहार
         </h1>
-        <p data-aos="fade-down" >तीज - त्यौहारों के शुभ अवसर पर मन्दिर में क्षेत्रीय लोगों के अतिरिक्त दूर-दूर से आए हुए भक्त जनों की भीड ़ लगी रहती है। उनके द्वारा मन्दिर मे ं पूजा आराधना की जाती है।</p>
+        <p data-aos="fade-down" >तीज - त्यौहारों के शुभ अवसर पर मन्दिर में क्षेत्रीय लोगों के अतिरिक्त दूर-दूर से आए हुए भक्त जनों की भीड़ लगी रहती है। उनके द्वारा मन्दिर में पूजा आराधना की जाती है।</p>
         {festivals.map((festival, index) => (
           <div
             className={`festival-card ${index % 2 === 0 ? 'left' : 'right'}`}
@@ -71,7 +72,7 @@ export function FestivalsAndRitualsHindi(){
             data-aos="fade-up"
           >
             <img
-              src={`./assets/images/${festival.image}`}
+              src={`FestivalsAndRituals/${festival.image}`}
               alt={festival.title}
               className="festival-image"
             />

@@ -22,12 +22,13 @@ export function WorshipAndManagementSystemHindi(){
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                    <div class="collapse navbar-collapse" id="navbarCollapse"> 
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
-                       <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/#/pages/hindi_pages/introduction_page">अनसूया आश्रम परिचय</a> </li> 
+                       <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/hindi_pages/introduction_page">अनसूया आश्रम परिचय</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/NearBySitesHindi">आश्रम के दर्शनीय स्थल</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/festivalsRitualsHindi">तीज त्यौहार</a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन </a></li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा एवं प्रबंधन</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/DonationHindi">दान-पुण्य </a> </li>
                        <li class="nav-item"> <a class="nav-link " href="/#/pages/hindi_pages/WebsiteDevelopmentHindi">वेबसाइट विकास</a> </li>
                      </ul>
                   
@@ -47,9 +48,9 @@ export function WorshipAndManagementSystemHindi(){
 
           <div className="worship-card" data-aos="fade-up">
             <div className="worship-content">
-              <h3 className="section-title">आश्रम मे ं मन्दिर  पूजा व्यवस्था</h3>
+              <h3 className="section-title">आश्रम में मन्दिर  पूजा व्यवस्था</h3>
               <p>
-                अनसूया मन्दिर पूरे वर्ष भर दर्शनार्थियो ं के लिए खुला रहता है। वर्ष भर सुबह शायं पुजारी पंचायत द्वारा नामित व्यक्ति द्वारा पूजा सम्पन्न की जाती है। सेमवाल परिवार में सूतक पातिक (जन्म-मरण) होने की स्थिति में अनसूया आश्रम के तिवारी परिवारों द्वारा पूजा सम्पन्न की जाती है। तिवारी पण्डित अनसूया मन्दिर के पुरोहित हैं। मन्दिर की पूजा व्यवस्था वर्षों से इसी भांति चली आ रही है।
+                अनसूया मन्दिर पूरे वर्ष भर दर्शनार्थियों के लिए खुला रहता है। वर्ष भर सुबह शायं पुजारी पंचायत द्वारा नामित व्यक्ति द्वारा पूजा सम्पन्न की जाती है। सेमवाल परिवार में सूतक पातिक (जन्म-मरण) होने की स्थिति में अनसूया आश्रम के तिवारी परिवारों द्वारा पूजा सम्पन्न की जाती है। तिवारी पण्डित अनसूया मन्दिर के पुरोहित हैं। मन्दिर की पूजा व्यवस्था वर्षों से इसी भांति चली आ रही है।
               </p>
             </div>
             <div className="worship-image-wrapper">
@@ -61,7 +62,7 @@ export function WorshipAndManagementSystemHindi(){
             <div className="worship-content">
               <h3 className="section-title">अनसूया रथ डोली मन्दिर</h3>
               <p>
-                अनसूया रथ डोली मन्दिर ग्राम मण्डल में स्थित हैं। जहा ँ समय-समय पर पूजा आराधना सम्पन्न की जाती है। रथ डोली निर्माण हेत ु भूम ि मण्डल ग्राम के सेमवाल पण्डितों, जो कि अनसूया माता के पुजारी भी हैं, के द्वारा भूम ि अनसूया मन्दिर ट्रस्ट समिति को दान स्वरूप प्रदान की गई है। इसी भूम ि अनसूया रथ डोली मन्दिर स्थापित है।
+                अनसूया रथ डोली मन्दिर ग्राम मण्डल में स्थित हैं। जहाँ समय-समय पर पूजा आराधना सम्पन्न की जाती है। रथ डोली निर्माण हेतु भूमि मण्डल ग्राम के सेमवाल पण्डितों, जो कि अनसूया माता के पुजारी भी हैं, के द्वारा भूमि अनसूया मन्दिर ट्रस्ट समिति को दान स्वरूप प्रदान की गई है। इसी भूमि अनसूया रथ डोली मन्दिर स्थापित है।
               </p>
             </div>
             <div className="worship-image-wrapper">
@@ -81,12 +82,15 @@ export function WorshipAndManagementSystemHindi(){
               <Carousel.Item>
                 <img className="d-block w-100 carousel-img" src="/WorshipAndManagement/carousel3.jpg" alt="Slide 3" />
               </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100 carousel-img" src="/WorshipAndManagement/carousel4.jpg" alt="Slide 3" />
+              </Carousel.Item>
             </Carousel>
           </div>
 
           <blockquote className="blockquote text-center mt-5" data-aos="fade-up">
-            <p className="mb-0">“May the grace of Mata Anasuya be upon all.”</p>
-            <footer className="blockquote-footer">Anasuya Devotee</footer>
+            <p className="mb-0">“माता अनसूया की कृपा सभी पर बनी रहे”</p>
+            <footer className="blockquote-footer">अनसूया भक्त </footer>
           </blockquote>
         </div>
       </div>

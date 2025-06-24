@@ -8,6 +8,7 @@ import { TempleAdministration } from "./pages/english_pages/temple_administratio
 import { FestivalsAndRituals} from "./pages/english_pages/festivals_rituals";
 import { WorshipAndManagementSystem} from './pages/english_pages/worshipAndManagement';
 import { WebsiteDevelopment } from "./pages/english_pages/website_development";
+import Donation from "./pages/english_pages/Donation";
 import StartingPage from "./pages/hindi_pages/introduction_page";
 import { AnnualFairHindi } from "./pages/hindi_pages/annualFairHindi";
 import { FestivalsAndRitualsHindi } from "./pages/hindi_pages/festivalsRitualsHindi";
@@ -15,6 +16,8 @@ import { NearBySitesHindi } from "./pages/hindi_pages/NearBySitesHindi";
 import { TempleAdministrationHindi } from "./pages/hindi_pages/TempleAdminsitrationHindi";
 import { WebsiteDevelopmentHindi } from "./pages/hindi_pages/WebsiteDevelopmentHindi";
 import { WorshipAndManagementSystemHindi } from "./pages/hindi_pages/WorshipAndManagementHindi";
+import DonationHindi from "./pages/hindi_pages/DonationHindi";
+
 
 
 
@@ -30,6 +33,7 @@ function App() {
       <Route path="/pages/english_pages/festivals_rituals" element={<FestivalsAndRituals/>} />
       <Route path="/pages/english_pages/worship_system" element={<WorshipAndManagementSystem/>} />
       <Route path="/pages/english_pages/website_development" element={<WebsiteDevelopment/>} /> 
+      <Route path="/pages/english_pages/Donation" element={<Donation/>} />
       <Route path="/pages/hindi_pages/annualFairHindi" element={<AnnualFairHindi/>} />
       <Route path="/pages/hindi_pages/introduction_page" element={<StartingPage/>} />
       <Route path="/pages/hindi_pages/festivalsRitualsHindi" element={<FestivalsAndRitualsHindi/>} />
@@ -37,6 +41,7 @@ function App() {
       <Route path="/pages/hindi_pages/TempleAdministrationHindi" element={<TempleAdministrationHindi/>} />
       <Route path="/pages/hindi_pages/WebsiteDevelopmentHindi" element={<WebsiteDevelopmentHindi/>} />
       <Route path="/pages/hindi_pages/WorshipAndManagementHindi" element={<WorshipAndManagementSystemHindi/>} />
+      <Route path="//pages/hindi_pages/DonationHindi" element={<DonationHindi/>} />
        
     </Routes>
    </Router>

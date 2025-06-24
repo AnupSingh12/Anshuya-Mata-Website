@@ -1,0 +1,108 @@
+/* Overall layout */
+.donation-new-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fffdf6, #f8f1ea);
+  padding: 4rem 2rem;
+  font-family: 'Georgia', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4a2c2a;
+  animation: fadeIn 1s ease-in-out both;
+}
+
+/* Hero section */
+.donation-new-hero {
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 10px 30px rgba(198, 162, 110, 0.2);
+  border-radius: 1rem;
+  backdrop-filter: blur(3px);
+  animation: floatUp 1.2s ease-out;
+}
+
+.donation-new-heading {
+  font-size: 3rem;
+  color: #af5d2a;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.donation-new-message {
+  font-size: 1.2rem;
+  line-height: 2;
+  font-weight: 500;
+  color: #4e3b30;
+}
+
+/* Bank details section */
+.donation-new-bank {
+  background: #fff9f1;
+  border: 1px solid #f3e0c7;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(198, 162, 110, 0.15);
+  animation: fadeIn 2s ease-in;
+}
+
+.bank-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #7c4a2f;
+  font-weight: 600;
+}
+
+.bank-card p {
+  font-size: 1.1rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed #d3bfae;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .donation-new-heading {
+    font-size: 2.2rem;
+  }
+
+  .donation-new-message {
+    font-size: 1rem;
+  }
+
+  .bank-title {
+    font-size: 1.4rem;
+  }
+
+  .bank-card p {
+    font-size: 1rem;
+  }
+}

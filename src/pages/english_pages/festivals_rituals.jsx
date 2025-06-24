@@ -10,13 +10,13 @@ const festivals = [
     title: 'Basant Panchami',
     description:
       'On this occasion, the local people prepare Arsha and offer it as Prasad to the Goddess in the court of the Goddess. They pray to the Goddess for the prosperity of the region. Arsha is distributed as Prasad to every family of Mandal Valley.',
-    image: 'basant.jpg',
+    image: 'basnatPanchami.jpg',
   },
   {
     title: 'Raksha Bandhan',
     description:
       'It is known as Raksha Bandhan festival (Rishitarpani). On this occasion, special Puja Kothi is set up and the Goddess is worshipped. The Goddess\'s court is decorated with Brahma Kamals. These Brahma Kamals are distributed as prasad to each family in the villages that are given by the members of the AMT committee (News - Nali).',
-    image: 'raksha.jpg',
+    image: 'RakhaBandhan.jpg',
   },
   {
     title: 'Navratari Festival',
@@ -49,6 +49,7 @@ export function FestivalsAndRituals(){
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
                   
@@ -70,7 +71,7 @@ export function FestivalsAndRituals(){
             data-aos="fade-up"
           >
             <img
-              src={`./assets/images/${festival.image}`}
+              src={`FestivalsAndRituals/${festival.image}`}
               alt={festival.title}
               className="festival-image"
             />

@@ -26,6 +26,7 @@ export function WebsiteDevelopmentHindi(){
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा एवं प्रबंधन</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/DonationHindi">दान-पुण्य </a> </li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/hindi_pages/WebsiteDevelopmentHindi">वेबसाइट विकास</a> </li>
                      </ul>
                   
@@ -40,9 +41,9 @@ export function WebsiteDevelopmentHindi(){
         <div className="glass-card container" data-aos="zoom-in">
           <h1 className="section-heading">अनसूया माता वैबसाइड़</h1>
           <p className="section-paragraph">
-            सती शिरोमणि माता अनसूया की वेबसाइट को तैयार करने के लिए अनसूया मन्दिर ट्रस्ट समिति की पूर्व कार्यकारिणियो ं द्वारा भी भरसक प्रयास किए जाते रहें हैं। लगातार चल रही इन प्रयासो ं के भल स्वरूप यह वेबसाइट तैयार हो पायी है। 
+            सती शिरोमणि माता अनसूया की वेबसाइट को तैयार करने के लिए अनसूया मन्दिर ट्रस्ट समिति की पूर्व कार्यकारिणियों द्वारा भी भरसक प्रयास किए जाते रहें हैं। लगातार चल रही इन प्रयासों के भल स्वरूप यह वेबसाइट तैयार हो पायी है। 
             <br /><br />
-            इस वेबसाइट को तैयार करने हेतु वर्तमान कार्यकारिणी के सभी मा० सदस्यों एवं मण्डल घाटी के प्रभुद ्ध जनों का पूर्ण सहयोग प्राप्त हुआ। भविष्य मे ं भी इसी प्रकार के सहयोग की अपेक्षा के साथ माता का आशीर्वाद सदा बना रहे।
+            इस वेबसाइट को तैयार करने हेतु वर्तमान कार्यकारिणी के सभी मा० सदस्यों एवं मण्डल घाटी के प्रभुद्ध  जनों का पूर्ण सहयोग प्राप्त हुआ। भविष्य में भी इसी प्रकार के सहयोग की अपेक्षा के साथ माता का आशीर्वाद सदा बना रहे।
           </p>
           <div className="signature-box" data-aos="fade-up">
             <p>
