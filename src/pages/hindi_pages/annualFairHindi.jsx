@@ -36,7 +36,7 @@ export function AnnualFairHindi(){
                     
              <div className="anasuya-fair-page">
       <header className="anasuya-hero text-center">
-        <h1>सती शिरोमणि माता अनसूया की रथडोली / अनसूया मेल</h1>
+        <h1>सती शिरोमणि माता  अनसूया मेला  / अनसूया की रथडोली </h1>
       </header>
 
       <div className="container py-5">
@@ -70,31 +70,16 @@ export function AnnualFairHindi(){
             <img src="/MataAnshuyaPhoto/c.jpg" className="img-fluid rounded shadow" alt="Raj Bhog Prasad" />
           </div>
           <div className="col-md-6">
+          <h3 className="section-title">अनसूया रथ डोली मन्दिर</h3>
             <p>
-              सती शिरोमणि माता अनसूया की वेबसाइट को तैयार करने के लिए अनसूया मन्दिर ट्रस्ट समिति की पूर्व कार्यकारिणियों द्वारा भी भरसक प्रयास किए जाते रहें हैं। लगातार चल रही इन प्रयासों के भल स्वरूप यह वेबसाइट तैयार हो पायी है। इस वेबसाइट को तैयार करने हेतु वर्तमान कार्यकारिणी के सभी मा० सदस्यों एवं मण्डल घाटी के प्रभुद्ध जनों का पूर्ण सहयोग प्राप्त हुआ। भविष्य में भी इसी प्रकार के सहयोग की अपेक्षा के साथ माता का आशीर्वाद सदा बना रहे।
-            </p>
+                अनसूया रथ डोली मन्दिर ग्राम मण्डल में स्थित हैं। जहाँ समय-समय पर पूजा आराधना सम्पन्न की जाती है। रथ डोली निर्माण हेतु भूमि मण्डल ग्राम के सेमवाल पण्डितों, जो कि अनसूया माता के पुजारी भी हैं, के द्वारा भूमि अनसूया मन्दिर ट्रस्ट समिति को दान स्वरूप प्रदान की गई है। इसी भूमि अनसूया रथ डोली मन्दिर स्थापित है।
+              </p>
           </div>
         </div>
 
-        {/* Gallery */}
-        <div className="row text-center my-4">
-          <div className="col-12 mb-3">
-            <h2 className="text-dark">Fair Gallery</h2>
-          </div>
+        
 
-          {[
-            "/MataAnshuyaPhoto/d.jpg",
-            "/MataAnshuyaPhoto/e.jpg",
-            "/MataAnshuyaPhoto/f.jpg",
-            "/MataAnshuyaPhoto/g.jpg",
-            "/MataAnshuyaPhoto/h.jpg",
-            "/MataAnshuyaPhoto/i.jpg"
-          ].map((src, idx) => (
-            <div key={idx} className="col-6 col-md-4 col-lg-2 mb-4">
-              <img src={src} alt={`Fair ${idx + 1}`} className="img-fluid rounded shadow-sm gallery-image" />
-            </div>
-          ))}
-        </div>
+      
       </div>
 
       <footer className="anasuya-footer text-center py-3">

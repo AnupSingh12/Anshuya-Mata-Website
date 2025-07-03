@@ -40,6 +40,10 @@ import "../../Styling/TempleAdministration.css"
                 </div>
               </section>
             </div>
+
+            <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
             
             </div>
     )

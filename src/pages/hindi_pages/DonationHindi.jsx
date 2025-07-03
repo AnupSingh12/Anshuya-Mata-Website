@@ -42,10 +42,12 @@ function DonationHindi() {
           <p><strong>ब्रांच का नाम :</strong> उत्तराखंड  ग्रामीण  बैंक </p>
           <p><strong>खाता संख्या  :</strong> 4253029920</p>
           <p><strong>आईएफएससी कोड:</strong> SBIN0RRUTGB</p>
-          <p><strong>ब्रांच :</strong> देहरादून जिला </p>
         </div>
       </div>
     </section>
+    <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
         </div>
     </div>
    
