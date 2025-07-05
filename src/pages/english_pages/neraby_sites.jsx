@@ -14,8 +14,8 @@ const sacredSites = [
   { title: 'Ganesha of Chauri', desc: 'At a distance of 500 meters from Anasuya temple, on the way to the temple, there is a huge statue of Ganesh ji. This is known as Ganesh of Chauri. Before visiting the mother, one first visits the revered Ganesh ji and then proceeds to the temple.', img: '/Nearby-Sites/chauriKaGanesh.jpg' },
   { title: 'Bhairav Nath', desc: 'Lord Bhairav Nath is present in the forest below the Ganesha idol. Darshan of Lord Bhairav Nath is considered very auspicious during the pilgrimage.', img: '/Nearby-Sites/bheravnath.jpg' },
   { title: 'Kumkum Tree', desc: 'There is a Kumkum tree on the way from the ashram to Atri Muni. Very few people know about this tree. Kumkum tree is considered a very revered tree in Sanatan Dharma.', img: '/Nearby-Sites/KumkumTree.png' },
-  { title: 'Banyan Tree (Sur)', desc: 'Just behind the temple of Mata ji, there is a worth seeing Banyan Tree which has been maintaining its beautiful image in the Ashram for many years.', img: '/Nearby-Sites/vatVriksh-2.jpg' },
-  { title: 'Vaitarni', desc: 'Behind the Vaitarni Ashram is the ancient Vaitarni temple which is made of ancient Katuwa stones and is decorated with Gomukh water stream.', img: '/Nearby-Sites/vatrani.jpg' },
+  { title: 'Banyan Tree (Sur)', desc: 'Just behind the temple of Mata ji, there is a worth seeing Banyan Tree which has been maintaining its beautiful image in the Ashram for many years.', img: '/Nearby-Sites/vatVriksh-2.png' },
+  { title: 'Vaitarni', desc: 'Behind the Vaitarni Ashram is the ancient Vaitarni temple which is made of ancient Katuwa stones and is decorated with Gomukh water stream.', img: '/Nearby-Sites/vatrani.png' },
   { title: 'Atri Ashram Waterfall', desc: 'At a distance of 1.5 km from Anasuya Ashram is the ashram of Atri Muni Ji. The beauty of the Atri Ashram waterfall is extremely beautiful and captivating. The circumambulation of this waterfall is done.', img: '/Nearby-Sites/AtriWaterFall.webp'},
 ];
 
@@ -43,11 +43,11 @@ const yatraElements = [
                    <div class="collapse navbar-collapse" id="navbarCollapse"> 
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
-                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
+                       <li class="nav-item"> <a class="nav-link  active" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
@@ -99,6 +99,9 @@ const yatraElements = [
         </div>
       </div>
     </section> 
+    <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
          </div>  
         </div>
     )

@@ -1,14 +1,26 @@
-/* WorshipAndManagementSystem.css */
+/* WorshipAndManagement.css */
 
-.body {
-  margin: 0;
-  padding: 0;
+/* Base structure */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Segoe UI', sans-serif;
 }
 
+.body {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background section */
 .divine-background {
   position: relative;
   background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
   overflow: hidden;
 }
 
@@ -18,7 +30,7 @@
   position: absolute;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 11%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 11%);
   background-size: 50px 50px;
   animation: float-particles 30s linear infinite;
   z-index: 0;
@@ -37,10 +49,11 @@
   }
 }
 
+/* Worship section */
 .worship-section {
   position: relative;
   z-index: 1;
-  padding: 60px 0;
+  padding: 60px 0 20px 0;
   color: #333;
 }
 
@@ -55,7 +68,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -79,6 +92,7 @@
   font-size: 1.1rem;
   line-height: 1.7;
   color: #3d3d3d;
+  margin-bottom: 0;
 }
 
 .worship-image-wrapper {
@@ -98,17 +112,6 @@
   transform: scale(1.05);
 }
 
-.image-carousel {
-  padding: 30px 0;
-}
-
-.carousel-img {
-  max-height: 450px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-
 blockquote {
   font-size: 1.2rem;
   font-style: italic;
@@ -117,4 +120,56 @@ blockquote {
   padding: 20px;
   border-left: 5px solid #d8a000;
   border-radius: 10px;
+  margin-bottom: 0;
+}
+
+/* Footer */
+.anasuya-footer {
+  background: #422006;
+  color: #f3e9d2;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .worship-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .worship-content,
+  .worship-image-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .worship-heading {
+    font-size: 2.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .worship-content p {
+    font-size: 1rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .worship-heading {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
 }

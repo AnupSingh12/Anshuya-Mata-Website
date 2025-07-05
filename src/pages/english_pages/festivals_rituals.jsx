@@ -9,19 +9,19 @@ const festivals = [
   {
     title: 'Basant Panchami',
     description:
-      'On this occasion, the local people prepare Arsha and offer it as Prasad to the Goddess in the court of the Goddess. They pray to the Goddess for the prosperity of the region. Arsha is distributed as Prasad to every family of Mandal Valley.',
+      'On this occasion, the local people prepare Arsha and offer it as sacred food (bhog prasad) to Mata in her divine court. Prayers are also offered to the Goddess for the prosperity of the region. As prasad, the Arsha is distributed to every family in the Mandal valley.',
     image: 'basnatPanchami.jpg',
   },
   {
     title: 'Raksha Bandhan',
     description:
-      'It is known as Raksha Bandhan festival (Rishitarpani). On this occasion, special Puja Kothi is set up and the Goddess is worshipped. The Goddess\'s court is decorated with Brahma Kamals. These Brahma Kamals are distributed as prasad to each family in the villages that are given by the members of the AMT committee (News - Nali).',
+      'The festival of Raksha Bandhan is celebrated under the name Rishitarpani. On this occasion, special worship is performed by setting up a sacred puja kothi, and the court of Mata is beautifully adorned with Brahma Kamal (sacred Himalayan flowers). These very Brahma Kamals are distributed by the Anasuya Mata Trust Committee (A.M.T.C.) to each family in the villages that participate in the News-Naali system, as a form of prasad.',
     image: 'RakhaBandhan.jpg',
   },
   {
     title: 'Navratari Festival',
     description:
-      'On the occasion of Navratri festival, Navratri Paath is organized every year by the A.M.T. committee in the temple of Mata. In the Sharaday Navratri of autumn, Navratri Paath is done in Anasuya temple and in the Tulagat Navratri of Chaitra month, Navratri Paath is done in Anasuya temple Rathdoli temple Mandal for the entire 10 days. On the occasion of Vijayadashmi festival, Navratri festival is concluded with the distribution of greenery prasad and Puja Aarti Bandhan.',
+      'During the Navratri festival, the Anasuya Mandir Trust Committee (A.M.T.C.) organizes the recitation of the Navratri scriptures in the temple every year. The Sharad Navratri (Autumn Navratri) is celebrated for ten days at the Anasuya Temple in the Anasuya Ashram, while the Chaitra Navratri is observed at the Anasuya Rathdoli Temple in Mandal. On the day of Vijayadashami, the festival concludes with the distribution of *Hariyali Prasad* (green offerings), along with devotional worship, aarti, and prayer ceremonies.',
     image: 'navratri.jpg',
   },
 ];
@@ -45,10 +45,10 @@ export function FestivalsAndRituals(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
+                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
@@ -62,7 +62,7 @@ export function FestivalsAndRituals(){
       <div className="overlay" />
       <div className="festivals-content">
         <h1 className="festivals-title" data-aos="fade-down">
-          Festivals & Rituals
+          The festivals celebrated from time to time in the ashram.
         </h1>
         {festivals.map((festival, index) => (
           <div
@@ -70,11 +70,7 @@ export function FestivalsAndRituals(){
             key={index}
             data-aos="fade-up"
           >
-            <img
-              src={`FestivalsAndRituals/${festival.image}`}
-              alt={festival.title}
-              className="festival-image"
-            />
+            
             <div className="festival-info">
               <h2>{festival.title}</h2>
               <p>{festival.description}</p>
@@ -83,6 +79,9 @@ export function FestivalsAndRituals(){
         ))}
       </div>
     </section>
+    <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
         </div>
     )
 }

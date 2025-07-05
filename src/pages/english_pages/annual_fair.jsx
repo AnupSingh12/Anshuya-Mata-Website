@@ -7,7 +7,7 @@ export function AnnualFair(){
     window.scrollTo(0, 0);
   }, []);
 
-    return( 
+   return( 
         <div>
           <div>
           
@@ -19,10 +19,10 @@ export function AnnualFair(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
-                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
+                       <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
@@ -36,71 +36,74 @@ export function AnnualFair(){
                     
              <div className="anasuya-fair-page">
       <header className="anasuya-hero text-center">
-        <h1>Rathdoli of Sati Shiromani Mata Anasuya / Anasuya Fair</h1>
+        <h1>Sati Shiromani Mata Anasuya Fair</h1>
       </header>
 
       <div className="container py-5">
-        
+        {/* Section 1 */}
         <div className="row mb-5 align-items-center fair-section">
           <div className="col-md-6 mb-4 mb-md-0">
             <img src="/MataAnshuyaPhoto/a.jpg" className="img-fluid rounded shadow" alt="Temple Procession" />
           </div>
           <div className="col-md-6">
             <p>
-              Every year on Chaturdashi and Purnamasi of the month of Margashish, the Dattatreya Jayanti Anasuya Mela is held at Anasuya Ashram.
-              It is also known as the Naudi Mela in the local language, which means the union of nine goddesses. On Chaturdashi Tithi, Dev Dolis
-              from Mandal, Bandwara, Devaladhar, Sagar, and Kathud arrive at Anasuya Ashram with great devotion.
+              Every year, on the Chaturdashi and Purnima (Full Moon) of the month of Margashirsha, the Dattatreya Jayanti and Anasuya Fair are celebrated at the Anasuya Ashram. In the local language, this fair is also known as the "Naudi Mela," which literally means the gathering of nine goddesses. On the day of Chaturdashi, the sacred palanquins (dev-dolies) of the deities begin their journey from their respective locations towards the Anasuya Ashram.At night, all the sacred palanquins (dev-dolies) reside in the sanctum sanctorum (garbh-griha) of the Anasuya temple. On this night, couples seeking the blessing of a child (known as barohi couples) participate in the night vigil held in the temple’s main hall. Cultural programs are also organized throughout the night to entertain the devotees attending the fair.
             </p>
           </div>
         </div>
 
-        
+        {/* Section 2 */}
         <div className="row mb-5 align-items-center fair-section flex-md-row-reverse">
           <div className="col-md-6 mb-4 mb-md-0">
             <img src="/MataAnshuyaPhoto/b.jpg" className="img-fluid rounded shadow" alt="Cultural Night" />
           </div>
           <div className="col-md-6">
             <p>
-              Dev Dolis rest overnight in the Anasuya temple premises. The Barohi couple keeps a night vigil with the hope of being blessed with
-              a child. Cultural performances entertain the crowd. On Purnima Tithi, prayers and Raj Bhog are offered before the Dev Dolis return
-              to their villages. The entire event is soaked in devotion.
+              On the following day, which is the Purnima (Full Moon), after the rituals of worship (puja-archana) and the offering of royal bhog prasad, the palanquins return to their respective locations. The entire atmosphere is filled with devotion, and words fall short to describe its divine beauty.
+
+Although barohi couples can sit in the temple throughout the year to pray for children, the Dattatreya Jayanti during the Anasuya Fair holds special significance for them. This ashram, renowned as the Anasuya Ashram, is named after Sati Shiromani Mata Anasuya, the divine mother believed to grant the blessing of children.
             </p>
           </div>
         </div>
 
-        
+        {/* Section 3 */}
+         <h3 className="section-title text-align-center">Anasuya Rath Doli Temple</h3>
+
         <div className="row mb-5 align-items-center fair-section">
-          <div className="col-md-6 mb-4 mb-md-0">
-            <img src="/MataAnshuyaPhoto/c.jpg" className="img-fluid rounded shadow" alt="Raj Bhog Prasad" />
-          </div>
-          <div className="col-md-6">
-            <p>
-              The Anasuya Ashram is revered for fulfilling childbearing wishes. On Dattatreya Jayanti, the divine blessings are believed to be
-              especially powerful for Barohi couples. Efforts by the temple trust have resulted in a well-developed website with support from
-              Mandal Valley residents—ensuring the continued legacy of Mata Anasuya.
-            </p>
-          </div>
-        </div>
+  {/* First Image */}
+  <div className="col-md-6 mb-4 mb-md-0">
+    <img
+      src="/MataAnshuyaPhoto/c.jpg"
+      className="img-fluid rounded shadow equal-img"
+      alt="Rathdoli mandir"
+    />
+  </div>
+
+  {/* Text and Second Image */}
+  <div className="col-md-6">
+    <div className="row">
+      {/* Text Column */}
+      <div className="col-12 col-md-6 mb-3 mb-md-0">
+        <p>
+          The Anasuya Rath Doli Temple is located in the village of Mandal, where worship and rituals are performed from time to time. The land for the construction of the Rath Doli was donated to the Anasuya Temple Trust Committee by the Semwal priests of Mandal village, who also serve as the priests of Mata Anasuya. It is on this donated land that the Anasuya Rath Doli Temple has been established.
+        </p>
+      </div>
+
+      {/* Second Image Column */}
+      <div className="col-12 col-md-6">
+        <img
+          src="/MataAnshuyaPhoto/z.jpg"
+          className="img-fluid rounded shadow equal-img"
+          alt="Second side view"
+        />
+      </div>
+    </div>
+  </div>
+</div>
 
         
-        <div className="row text-center my-4">
-          <div className="col-12 mb-3">
-            <h2 className="text-dark">Fair Gallery</h2>
-          </div>
 
-          {[
-            "/MataAnshuyaPhoto/d.jpg",
-            "/MataAnshuyaPhoto/e.jpg",
-            "/MataAnshuyaPhoto/f.jpg",
-            "/MataAnshuyaPhoto/g.jpg",
-            "/MataAnshuyaPhoto/h.jpg",
-            "/MataAnshuyaPhoto/i.jpg"
-          ].map((src, idx) => (
-            <div key={idx} className="col-6 col-md-4 col-lg-2 mb-4">
-              <img src={src} alt={`Fair ${idx + 1}`} className="img-fluid rounded shadow-sm gallery-image" />
-            </div>
-          ))}
-        </div>
+      
       </div>
 
       <footer className="anasuya-footer text-center py-3">
@@ -112,3 +115,8 @@ export function AnnualFair(){
         </div>
     )
 }
+
+
+
+
+

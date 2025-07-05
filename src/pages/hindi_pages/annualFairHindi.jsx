@@ -19,10 +19,10 @@ export function AnnualFairHindi(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/hindi_pages/introduction_page">अनसूया आश्रम परिचय</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/NearBySitesHindi">आश्रम के दर्शनीय स्थल</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा प्रबंधन</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/festivalsRitualsHindi">तीज त्यौहार </a></li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा एवं प्रबंधन</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/DonationHindi">दान-पुण्य </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WebsiteDevelopmentHindi">वेबसाइट विकास</a> </li>
                      </ul>
@@ -36,7 +36,7 @@ export function AnnualFairHindi(){
                     
              <div className="anasuya-fair-page">
       <header className="anasuya-hero text-center">
-        <h1>सती शिरोमणि माता  अनसूया मेला  / अनसूया की रथडोली </h1>
+        <h1>सती शिरोमणि माता  अनसूया मेला  </h1>
       </header>
 
       <div className="container py-5">
@@ -47,7 +47,7 @@ export function AnnualFairHindi(){
           </div>
           <div className="col-md-6">
             <p>
-              प्रतिवर्ष मार्गशीष माह के चतुर्दशी एवं पूर्णमासी पर अनसूया आश्रम में दत्तात्रेय जयन्ती अनसूया मेला लगता है। स्थानीय भाषा में इसे नौदी मेले के नाम से भी जाना जाता है। जिसका शाब्दिक अर्थ नौ देवियों के मिलन से है। इस मेले में चतुर्दशी तिथि को देव डोलियां अपने अपने स्थानों  से अनसूया आश्रम में प्रस्थान करती हैं। जिसमें मुख्य रूप से मण्डल से अनसूया की रथ डोली, बणद्वारा से ज्वाला माता, देवलधार, सगर, कड़ से भी ज्वाला देवी की डोलियां अनसूया आश्रम हेतु प्रस्थान करती हैं।
+              प्रतिवर्ष मार्गशीष माह के चतुर्दशी एवं पूर्णमासी पर अनसूया आश्रम में दत्तात्रेय जयन्ती अनसूया मेला लगता है। स्थानीय भाषा में इसे नौदी मेले के नाम से भी जाना जाता है। जिसका शाब्दिक अर्थ नौ देवियों के मिलन से है। इस मेले में चतुर्दशी तिथि को देव डोलियां अपने अपने स्थानों  से अनसूया आश्रम में प्रस्थान करती हैं।
             </p>
           </div>
         </div>
@@ -65,17 +65,39 @@ export function AnnualFairHindi(){
         </div>
 
         {/* Section 3 */}
+         <h3 className="section-title text-align-center">अनसूया रथ डोली मन्दिर</h3>
+
         <div className="row mb-5 align-items-center fair-section">
-          <div className="col-md-6 mb-4 mb-md-0">
-            <img src="/MataAnshuyaPhoto/c.jpg" className="img-fluid rounded shadow" alt="Raj Bhog Prasad" />
-          </div>
-          <div className="col-md-6">
-          <h3 className="section-title">अनसूया रथ डोली मन्दिर</h3>
-            <p>
-                अनसूया रथ डोली मन्दिर ग्राम मण्डल में स्थित हैं। जहाँ समय-समय पर पूजा आराधना सम्पन्न की जाती है। रथ डोली निर्माण हेतु भूमि मण्डल ग्राम के सेमवाल पण्डितों, जो कि अनसूया माता के पुजारी भी हैं, के द्वारा भूमि अनसूया मन्दिर ट्रस्ट समिति को दान स्वरूप प्रदान की गई है। इसी भूमि अनसूया रथ डोली मन्दिर स्थापित है।
-              </p>
-          </div>
-        </div>
+  {/* First Image */}
+  <div className="col-md-6 mb-4 mb-md-0">
+    <img
+      src="/MataAnshuyaPhoto/c.jpg"
+      className="img-fluid rounded shadow equal-img"
+      alt="Rathdoli mandir"
+    />
+  </div>
+
+  {/* Text and Second Image */}
+  <div className="col-md-6">
+    <div className="row">
+      {/* Text Column */}
+      <div className="col-12 col-md-6 mb-3 mb-md-0">
+        <p>
+          अनसूया रथ डोली मन्दिर ग्राम मण्डल में स्थित हैं। जहाँ समय-समय पर पूजा आराधना सम्पन्न की जाती है। रथ डोली निर्माण हेतु भूमि मण्डल ग्राम के सेमवाल पण्डितों, जो कि अनसूया माता के पुजारी भी हैं, के द्वारा भूमि अनसूया मन्दिर ट्रस्ट समिति को दान स्वरूप प्रदान की गई है। इसी में भूमि अनसूया रथ डोली मन्दिर स्थापित है।
+        </p>
+      </div>
+
+      {/* Second Image Column */}
+      <div className="col-12 col-md-6">
+        <img
+          src="/MataAnshuyaPhoto/z.jpg"
+          className="img-fluid rounded shadow equal-img"
+          alt="Second side view"
+        />
+      </div>
+    </div>
+  </div>
+</div>
 
         
 

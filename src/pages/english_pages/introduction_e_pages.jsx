@@ -7,23 +7,23 @@ import 'aos/dist/aos.css';
 
 const sections = [
   {
-    content: "Ansuya is a holy place where no impurity exists, and it is regarded as such. Located in the Chamoli district of Uttarakhand, near Gopeshwar (the district headquarters), the Ansuya shrine is about 12 km from Gopeshwar, situated on the Joshimath motor road. After reaching Mandal village, pilgrims must trek around 5 km through the forest to reach the revered Ansuya Mata Temple.",
+    content: "In the state of Uttarakhand, within the Garhwal division, lies the border district of Chamoli. From the district headquarters at Gopeshwar, one travels 13 kilometers along the Chamoli-Ukhimath motor road to reach a place called 'Anasuya Gate' in the Mandal Valley. From there, a 5-kilometer trek leads to the ashram of Sati Shiromani Mata Anasuya, revered as the granter of children. The Anasuya Ashram is located at a scenic spot at an altitude of 7,000 feet above sea level. The temple of Mata Anasuya is built in the traditional Nagar style of architecture. To the east of the ashram lies the Rudranath Temple, to the west are the Tungnath Temple and Chandrashila mountain peak, to the north is a range of snow-covered Himalayan peaks, and to the south lie nine villages of the Mandal Valley.",
     image: "/Introduction/AnshuyaMandir.png"
   },
   {
-    content: "This sacred site sits at an elevation of 7,000 feet above sea level. The temple is constructed in the traditional Nagar style of Himalayan architecture. Surrounding the temple are shrines of Lord Dattatreya to the east, Lord Rudranath to the west, and Lord Tungnath to the south—all part of the Panch Kedar pilgrimage route. To the north lies the Joshimath valley and nine surrounding villages.",
+    content: "About 1.5 kilometers from the Anasuya Ashram lies the highly picturesque hermitage of Sage Atri (Atrimuni). To enter this ashram, one must climb a rock face using iron chains fixed into the stone, and then crawl into a cave by lying flat on the stomach. This serene hermitage is known for its enchanting waterfall, around which devotees perform a circumambulation (parikrama) of the flowing stream. The unique feature of this ashram is the sacred water pond located beneath the waterfall. This pond is known as 'Amrit Kund', and the place itself derives its name from it. There are many legends and folk tales associated with this mystical site.",
     image: "/Introduction/DoliDancing.jpg"
   },
   {
-    content: "At 1.5 km from the Ansuya Temple lies the revered Tapovan of Maharishi Atri, known as the Bhavishya Badri temple. The path to the temple includes trails cut through dense forest, requiring physical effort. The trail includes river crossings and steep ascents. A spring flows under a massive stone slab along the path, called the Veetr Kund, from which the place gets the name Veetr Dham. Several myths and stories are associated with this miraculous stream.",
+    content: "Mata Anasuya was the daughter of Sage Kardam and Devahuti. She had nine sisters and one brother. Her brother’s name was Kapil, who is considered an incarnation of Lord Vishnu. Anasuya’s husband, Sage Atri, is regarded as a Manas Putra (mind-born son) of Lord Brahma.",
     image: "/Introduction/FiveDoli.jpg"
   },
   {
-    content: "Mata Ansuya is the goddess of penance and purity. She had nine daughters and one son, Lord Dattatreya, born from her austerities and devotion. When the goddesses Lakshmi, Parvati, and Saraswati became jealous, they urged their husbands (Vishnu, Shiva, and Brahma) to test Ansuya’s chastity. Ansuya, through her divine power, turned them into infants. Pleased with her purity, the Trimurti granted her a boon, and from them was born Lord Dattatreya — a unified incarnation of all three deities.",
+    content: "By the power of her unwavering devotion and chastity, Anasuya transformed the Trimurti—Brahma, Vishnu, and Shiva—into infants when they came to test her pativrata dharma (devotion and fidelity to her husband). Upon the earnest pleas of their consorts, Anasuya restored the three deities to their original divine forms. Her son, Lord Dattatreya, was born on the full moon day (Purnima) of the month of Margashirsha. In celebration of his birth, the Dattatreya Jayanti and the Anasuya Fair (Anasuya Mela) have been observed at the Anasuya Ashram since ancient times. In the local language, this fair is known as the 'Naudi Mela', meaning 'the gathering of nine goddesses.'",
     image: "/Introduction/Doli.jpg"
   },
   {
-    content: "The day of Dattatreya's birth is celebrated as Ansuya Mela, a traditional fair held at the temple since ancient times. Locally, the festival is called the Nauhini Mela. During this festival, devotees from various regions gather, and the temple premises are beautifully decorated. Women pilgrims stay near the temple, praying to Ansuya Mata. It is believed that by meditating during the night, divine visions are granted. At 4 AM, the temple doors open, and a grand worship is performed. A traditional spiritual discourse is then delivered to the gathering.",
+    content: "During this fair, barohi couples (those who come with the desire to have a child) reserve their place at the Ashram of the child-blessing goddess by obtaining a receipt from the temple trust. Women longing for a child observe a fast and sit in deep meditation within the divine court of Mata Anasuya. In this meditative state, it is believed that through dreams, they receive the blessings and grace of the goddess. At around 4 AM, when the temple doors open, the barohi couples perform a special worship of Mata Anasuya, after which the priest offers them sacred prasadam known as Shree Samvad Swaroop Prasad.",
     image: "/Introduction/MataAtVillage.jpg"
   }
 ];
@@ -49,10 +49,10 @@ function StartingEPages(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
@@ -63,10 +63,14 @@ function StartingEPages(){
           
           </div>
 
-            <section className="introduction-section py-5">
+             <section className="introduction-section py-5">
       <div className="container">
+        <h1 className="text-center heading mb-3" data-aos="fade-down">
+          आश्रम का परिचय 
+        </h1>
+
         <h2 className="text-center slogan mb-3" data-aos="fade-down">
-          "नसूया विद्यते यस्यां सानुसेयेति कथ्यते"
+          "नसूया विद्यते यस्यां सानुसूयेति कथ्यते"
         </h2>
         <p className="text-center slogan-meaning mb-5" data-aos="fade-up">
           अर्थात् जिसमें कोई विकार नही हैं वही निर्विकार स्वरूपा अनसूया हैं
@@ -89,8 +93,9 @@ function StartingEPages(){
       </div>
     </section>
           
-
-        
+     <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
            
         </div>
     )

@@ -10,12 +10,12 @@ function Donation() {
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                    <div class="collapse navbar-collapse" id="navbarCollapse"> 
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
-                       <li class="nav-item"> <a class="nav-link" aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
+                       <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship</a> </li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/Donation">Donation</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/website_development">Website Development</a> </li>
                      </ul>
@@ -39,13 +39,15 @@ function Donation() {
         <h2 className="bank-title">Temple Donation Bank Details</h2>
         <div className="bank-card">
           <p><strong>Account Name:</strong> Shri Ansuya Mandir Trust Committee</p>
-          <p><strong>Branch Name:</strong> Uttarakhand Gramin Bank</p>
+          <p><strong>Branch Name:</strong> Uttarakhand Gramin Bank, Mandal</p>
           <p><strong>Account Number:</strong> 4253029920</p>
           <p><strong>IFSC Code:</strong> SBIN0RRUTGB</p>
-          <p><strong>Branch:</strong> Dehradun District</p>
         </div>
       </div>
     </section>
+    <footer className="anasuya-footer text-center py-3">
+        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+      </footer>
         </div>
     </div>
    
