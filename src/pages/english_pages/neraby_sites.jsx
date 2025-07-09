@@ -6,17 +6,17 @@ import 'aos/dist/aos.css';
 
 
 const sacredSites = [
-  { title: 'Forest Deities', desc: 'Stone idols of forest deities are installed behind the Anasuya Ashram temple. Forest deities are also worshipped during the daily puja in the morning and evening.', img: '/Nearby-Sites/vanDeviDevta.jpg' },
-  { title: 'Kshetrapala', desc: 'As the protector of Anasuya Ashram, the foremost deity of Mata Anasuya is Veer Amdar. He is situated near the Ashram. He is known and worshipped as the protector of not only Anasuya Ashram but also the entire Mandal valley.', img: '/Nearby-Sites/chetrapal.jpg' },
-  { title: 'Shiv Parvati', desc: 'At the back of the Anasuya Temple is a stone image of Shiva-Parvati, and just behind it is a Shivalinga that is worshipped daily.', img: '/Nearby-Sites/shiv-parvati.jpg' },
-  { title: 'Dattatreya Linga', desc: 'Lord Dattatreya is installed in the form of Linga behind the Anasuya temple. Lord Dattatreya is worshipped daily. Devotees from Maharashtra also come to visit Lord Dattatreya throughout the year.', img: '/Nearby-Sites/detatreLing.jpg' },
-  { title: 'Arunimanthan Rock', desc: 'There is Arunimanthan rock in the forest behind the temple. When a yagya is performed in the ashram, fire is produced by rubbing bamboo on this rock. The yagya kund (fire pit) is lit with this fire.', img: '/Nearby-Sites/ArunimanthanRock.png' },
-  { title: 'Ganesha of Chauri', desc: 'At a distance of 500 meters from Anasuya temple, on the way to the temple, there is a huge statue of Ganesh ji. This is known as Ganesh of Chauri. Before visiting the mother, one first visits the revered Ganesh ji and then proceeds to the temple.', img: '/Nearby-Sites/chauriKaGanesh.jpg' },
-  { title: 'Bhairav Nath', desc: 'Lord Bhairav Nath is present in the forest below the Ganesha idol. Darshan of Lord Bhairav Nath is considered very auspicious during the pilgrimage.', img: '/Nearby-Sites/bheravnath.jpg' },
-  { title: 'Kumkum Tree', desc: 'There is a Kumkum tree on the way from the ashram to Atri Muni. Very few people know about this tree. Kumkum tree is considered a very revered tree in Sanatan Dharma.', img: '/Nearby-Sites/KumkumTree.png' },
-  { title: 'Banyan Tree (Sur)', desc: 'Just behind the temple of Mata ji, there is a worth seeing Banyan Tree which has been maintaining its beautiful image in the Ashram for many years.', img: '/Nearby-Sites/vatVriksh-2.png' },
-  { title: 'Vaitarni', desc: 'Behind the Vaitarni Ashram is the ancient Vaitarni temple which is made of ancient Katuwa stones and is decorated with Gomukh water stream.', img: '/Nearby-Sites/vatrani.png' },
-  { title: 'Atri Ashram Waterfall', desc: 'At a distance of 1.5 km from Anasuya Ashram is the ashram of Atri Muni Ji. The beauty of the Atri Ashram waterfall is extremely beautiful and captivating. The circumambulation of this waterfall is done.', img: '/Nearby-Sites/AtriWaterFall.webp'},
+  { title: 'Forest Deities', desc: 'Stone idols of forest deities are installed behind the Anasuya Ashram temple. Forest deities are also worshipped during the daily puja in the morning and evening.', img: '/NearbySites/vanDeviDevta.jpg' },
+  { title: 'Kshetrapala', desc: 'As the protector of Anasuya Ashram, the foremost deity of Mata Anasuya is Veer Amdar. He is situated near the Ashram. He is known and worshipped as the protector of not only Anasuya Ashram but also the entire Mandal valley.', img: '/NearbySites/chetrapal.jpg' },
+  { title: 'Shiv Parvati', desc: 'At the back of the Anasuya Temple is a stone image of Shiva-Parvati, and just behind it is a Shivalinga that is worshipped daily.', img: '/NearbySites/shiv-parvati.jpg' },
+  { title: 'Dattatreya Linga', desc: 'Lord Dattatreya is installed in the form of Linga behind the Anasuya temple. Lord Dattatreya is worshipped daily. Devotees from Maharashtra also come to visit Lord Dattatreya throughout the year.', img: '/NearbySites/detatreLing.jpg' },
+  { title: 'Arunimanthan Rock', desc: 'There is Arunimanthan rock in the forest behind the temple. When a yagya is performed in the ashram, fire is produced by rubbing bamboo on this rock. The yagya kund (fire pit) is lit with this fire.', img: '/NearbySites/ArunimanthanRock.png' },
+  { title: 'Ganesha of Chauri', desc: 'At a distance of 500 meters from Anasuya temple, on the way to the temple, there is a huge statue of Ganesh ji. This is known as Ganesh of Chauri. Before visiting the mother, one first visits the revered Ganesh ji and then proceeds to the temple.', img: '/NearbySites/chauriKaGanesh.jpg' },
+  { title: 'Bhairav Nath', desc: 'Lord Bhairav Nath is present in the forest below the Ganesha idol. Darshan of Lord Bhairav Nath is considered very auspicious during the pilgrimage.', img: '/NearbySites/bheravnath.jpg' },
+  { title: 'Kumkum Tree', desc: 'There is a Kumkum tree on the way from the ashram to Atri Muni. Very few people know about this tree. Kumkum tree is considered a very revered tree in Sanatan Dharma.', img: '/NearbySites/KumkumTree.png' },
+  { title: 'Banyan Tree (Sur)', desc: 'Just behind the temple of Mata ji, there is a worth seeing Banyan Tree which has been maintaining its beautiful image in the Ashram for many years.', img: '/NearbySites/vatVriksh-2.png' },
+  { title: 'Vaitarni', desc: 'Behind the Vaitarni Ashram is the ancient Vaitarni temple which is made of ancient Katuwa stones and is decorated with Gomukh water stream.', img: '/NearbySites/vatrani.png' },
+  { title: 'Atri Ashram Waterfall', desc: 'At a distance of 1.5 km from Anasuya Ashram is the ashram of Atri Muni Ji. The beauty of the Atri Ashram waterfall is extremely beautiful and captivating. The circumambulation of this waterfall is done.', img: '/NearbySites/AtriWaterFall.webp'},
 ];
 
 
