@@ -6,37 +6,37 @@ import "aos/dist/aos.css";
 const sacredSites = [
   {
     title: "Forest Deities",
-    desc: "Stone idols of forest deities are installed behind the Anasuya Ashram temple. Forest deities are also worshipped during the daily puja in the morning and evening.",
+    desc: "Behind the Anusuya Ashram temple, stone idols of various forest deities are enshrined. These deities are reverently worshipped every day during the morning and evening rituals.",
     img: "/NearbySites/vanDeviDevta.jpg",
   },
   {
-    title: "Kshetrapala",
-    desc: "As the protector of Anasuya Ashram, the foremost deity of Mata Anasuya is Veer Amdar. He is situated near the Ashram. He is known and worshipped as the protector of not only Anasuya Ashram but also the entire Mandal valley.",
+    title: "Kshetrapal",
+    desc: "As the guardian deity (Kshetrapal) of Anusuya Ashram, the valiant deity Amdar Devta, a foremost attendant of Mata Anusuya, is revered. His shrine is located near the ashram. He is not only considered the guardian deity of the ashram but is also worshipped as the protector of the entire Mandal valley.",
     img: "/NearbySites/chetrapal.jpg",
   },
   {
     title: "Shiv Parvati",
-    desc: "At the back of the Anasuya Temple is a stone image of Shiva-Parvati, and just behind it is a Shivalinga that is worshipped daily.",
+    desc: "At the rear section of the Anusuya Temple stands a stone idol of Lord Shiva and Goddess Parvati, and just behind it is a sacred Shivling that is worshipped daily",
     img: "/NearbySites/shiv-parvati.jpg",
   },
   {
     title: "Dattatreya Linga",
-    desc: "Lord Dattatreya is installed in the form of Linga behind the Anasuya temple. Lord Dattatreya is worshipped daily. Devotees from Maharashtra also come to visit Lord Dattatreya throughout the year.",
+    desc: "Lord Dattatreya is enshrined in lingam form behind the Anusuya Temple and is worshipped with daily rituals. Devotees from Maharashtra and other regions visit throughout the year to have his darshan and offer their reverence.",
     img: "/NearbySites/detatreLing.jpg",
   },
   {
     title: "Arunimanthan Rock",
-    desc: "There is Arunimanthan rock in the forest behind the temple. When a yagya is performed in the ashram, fire is produced by rubbing bamboo on this rock. The yagya kund (fire pit) is lit with this fire.",
+    desc: "Within the forest behind the temple rests the sacred Aruni-Manthan Shila. During yajnas performed at the ashram, fire is traditionally generated on this stone by rubbing bamboo sticks together. This consecrated flame is then used to light the yajna kund.",
     img: "/NearbySites/ArunimanthanRock.png",
   },
   {
     title: "Ganesha of Chauri",
-    desc: "At a distance of 500 meters from Anasuya temple, on the way to the temple, there is a huge statue of Ganesh ji. This is known as Ganesh of Chauri. Before visiting the mother, one first visits the revered Ganesh ji and then proceeds to the temple.",
+    desc: "Approximately 500 meters from the Anusuya Temple, along the pilgrimage route, stands a majestic idol of Lord Ganesha, revered as 'Chauri ke Ganesh'. As the first deity to be worshipped, devotees offer their prayers here before proceeding to seek the blessings of Mata Anusuya.",
     img: "/NearbySites/chauriKaGanesh.jpg",
   },
   {
     title: "Bhairav Nath",
-    desc: "Lord Bhairav Nath is present in the forest below the Ganesha idol. Darshan of Lord Bhairav Nath is considered very auspicious during the pilgrimage.",
+    desc: "In the forest beneath the idol of Lord Ganesha is the sacred site of Lord Bhairav Nath. It is considered highly auspicious to have his darshan during the pilgrimage.",
     img: "/NearbySites/bheravnath.jpg",
   },
   {
@@ -45,18 +45,18 @@ const sacredSites = [
     img: "/NearbySites/KumkumTree.png",
   },
   {
-    title: "Banyan Tree (Sur)",
-    desc: "Just behind the temple of Mata ji, there is a worth seeing Banyan Tree which has been maintaining its beautiful image in the Ashram for many years.",
+    title: "Banyan Tree (Surai)",
+    desc: "Just behind the temple of Mata Ji stands a magnificent Vat Vriksha (banyan tree), gracing the ashram with its serene and picturesque presence for many years",
     img: "/NearbySites/vatVriksh-2.png",
   },
   {
     title: "Vaitarni",
-    desc: "Behind the Vaitarni Ashram is the ancient Vaitarni temple which is made of ancient Katuwa stones and is decorated with Gomukh water stream.",
+    desc: "Behind the ashram is the ancient Vaitarni of the temple, constructed from timeworn chiseled stones and beautifully adorned by a sacred stream emerging from a Gomukh (cow-shaped spout).",
     img: "/NearbySites/vatrani.png",
   },
   {
     title: "Atri Ashram Waterfall",
-    desc: "At a distance of 1.5 km from Anasuya Ashram is the ashram of Atri Muni Ji. The beauty of the Atri Ashram waterfall is extremely beautiful and captivating. The circumambulation of this waterfall is done.",
+    desc: "Located just 1.5 kilometers from Anusuya Ashram is the serene hermitage of Sage Atri. The mesmerizing waterfall beside the ashram adds to the spiritual charm of the place. Devotees often perform a sacred circumambulation (parikrama) around this divine waterfall.",
     img: "/NearbySites/AtriWaterFall.webp",
   },
 ];
