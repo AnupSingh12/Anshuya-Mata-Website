@@ -2,7 +2,7 @@ import "./App.css"
 import { HashRouter as Router,Routes,Route } from "react-router-dom";
 import Home from "./Components/Home";
 import StartingEPages from "./pages/english_pages/introduction_e_pages";
-import { NearBySites } from "./pages/english_pages/neraby_sites";
+import NearBySites from "./pages/english_pages/neraby_sites";
 import { AnnualFair } from "./pages/english_pages/annual_fair";
 import { TempleAdministration } from "./pages/english_pages/temple_administration";
 import { FestivalsAndRituals} from "./pages/english_pages/festivals_rituals";
