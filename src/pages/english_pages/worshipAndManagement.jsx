@@ -23,7 +23,7 @@ export function WorshipAndManagementSystem(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Ansuya Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
@@ -49,9 +49,9 @@ export function WorshipAndManagementSystem(){
             <div className="worship-content">
               <h3 className="section-title">Temple Worship procedure in the Ashram</h3>
               <p>
-                The Anasuya Temple remains open to devotees throughout the year. Daily worship is performed every morning and evening by the Semwal priests. In cases of sūtak or pātak (ritual impurity due to birth or death) within the Semwal family, the worship is carried out by the Tiwari families of the Anasuya Ashram.
+                The Ansuya Temple remains open to devotees throughout the year. Daily worship is performed every morning and evening by the Semwal priests. In cases of sūtak or pātak (ritual impurity due to birth or death) within the Semwal family, the worship is carried out by the Tiwari families of the Ansuya Ashram.
 
-The Tiwari priests serve as the traditional priests (purohits) of the Anasuya Temple. This system of worship has been followed in the same manner for generations.
+The Tiwari priests serve as the traditional priests (purohits) of the Ansuya Temple. This system of worship has been followed in the same manner for generations.
               </p>
             </div>
             <div className="worship-image-wrapper">
@@ -61,16 +61,16 @@ The Tiwari priests serve as the traditional priests (purohits) of the Anasuya Te
 
 
           <blockquote className="blockquote text-center mt-5" data-aos="fade-up">
-            <p className="mb-0">“May the blessings of Mata Anasuya be upon everyone.”</p>
+            <p className="mb-0">“May the blessings of Mata Ansuya be upon everyone.”</p>
             <br></br>
-            <footer className="blockquote-footer">Anasuya Devotee</footer>
+            <footer className="blockquote-footer">Ansuya Devotee</footer>
           </blockquote>
         </div>
       </div>
       
     </section>
     <footer className="anasuya-footer text-center py-3">
-        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+        &copy; 2025 Ansuya Mandir Trust | Chamoli, Uttarakhand
       </footer>
           </div>
           

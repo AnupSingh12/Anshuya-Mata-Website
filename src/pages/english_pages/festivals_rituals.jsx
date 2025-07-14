@@ -15,13 +15,13 @@ const festivals = [
   {
     title: 'Raksha Bandhan',
     description:
-      'The festival of Raksha Bandhan is celebrated under the name Rishitarpani. On this occasion, special worship is performed by setting up a sacred puja kothi, and the court of Mata is beautifully adorned with Brahma Kamal (sacred Himalayan flowers). These very Brahma Kamals are distributed by the Anasuya Mata Trust Committee (A.M.T.C.) to each family in the villages that participate in the News-Naali system, as a form of prasad.',
+      'The festival of Raksha Bandhan is celebrated under the name Rishitarpani. On this occasion, special worship is performed by setting up a sacred puja kothi, and the court of Mata is beautifully adorned with Brahma Kamal (sacred Himalayan flowers). These very Brahma Kamals are distributed by the Ansuya Mata Trust Committee (A.M.T.C.) to each family in the villages that participate in the News-Naali system, as a form of prasad.',
     image: 'RakhaBandhan.jpg',
   },
   {
     title: 'Navratari Festival',
     description:
-      'During the Navratri festival, the Anasuya Mandir Trust Committee (A.M.T.C.) organizes the recitation of the Navratri scriptures in the temple every year. The Sharad Navratri (Autumn Navratri) is celebrated for ten days at the Anasuya Temple in the Anasuya Ashram, while the Chaitra Navratri is observed at the Anasuya Rathdoli Temple in Mandal. On the day of Vijayadashami, the festival concludes with the distribution of *Hariyali Prasad* (green offerings), along with devotional worship, aarti, and prayer ceremonies.',
+      'During the Navratri festival, the Ansuya Mandir Trust Committee (A.M.T.C.) organizes the recitation of the Navratri scriptures in the temple every year. The Sharad Navratri (Autumn Navratri) is celebrated for ten days at the Ansuya Temple in the Ansuya Ashram, while the Chaitra Navratri is observed at the Ansuya Rathdoli Temple in Mandal. On the day of Vijayadashami, the festival concludes with the distribution of *Hariyali Prasad* (green offerings), along with devotional worship, aarti, and prayer ceremonies.',
     image: 'navratri.jpg',
   },
 ];
@@ -45,7 +45,7 @@ export function FestivalsAndRituals(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Ansuya Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link active" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
@@ -80,7 +80,7 @@ export function FestivalsAndRituals(){
       </div>
     </section>
     <footer className="anasuya-footer text-center py-3">
-        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+        &copy; 2025 Ansuya Mandir Trust | Chamoli, Uttarakhand
       </footer>
         </div>
     )

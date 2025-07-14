@@ -12,7 +12,7 @@ function Donation() {
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Ansuya Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
@@ -46,7 +46,7 @@ function Donation() {
       </div>
     </section>
     <footer className="anasuya-footer text-center py-3">
-        &copy; 2025 Anasuya Mandir Trust | Chamoli, Uttarakhand
+        &copy; 2025 Ansuya Mandir Trust | Chamoli, Uttarakhand
       </footer>
         </div>
     </div>

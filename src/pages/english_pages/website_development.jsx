@@ -22,7 +22,7 @@ export function WebsiteDevelopment(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link " aria-current="page" href="/#/pages/english_pages/introduction_e_pages">Introduction</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/neraby_sites">Nearby Sites</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Temple Administration </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/temple_administration">Ansuya Temple Administration </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/worship_system">Worship </a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/festivals_rituals">Festivals & Rituals  </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/english_pages/annual_fair">Annual Fair</a> </li>
@@ -41,7 +41,7 @@ export function WebsiteDevelopment(){
         <div className="glass-card container" data-aos="zoom-in">
           <h1 className="section-heading">Website Development</h1>
           <p className="section-paragraph">
-            Sincere efforts have also been made by the previous executive committees of the Anasuya Mandir Trust Committee to develop the website dedicated to Sati Shiromani Mata Anasuya. As a result of these continuous efforts, this website has finally been brought into existence.
+            Sincere efforts have also been made by the previous executive committees of the Ansuya Mandir Trust Committee to develop the website dedicated to Sati Shiromani Mata Ansuya. As a result of these continuous efforts, this website has finally been brought into existence.
             <br /><br />
             The creation of this website has been made possible with the full support of all the current executive members and the esteemed residents of the Mandal Valley. We hope for the same kind of support in the future as well, and may the blessings of Mata always remain with us.
           </p>
