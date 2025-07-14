@@ -37,11 +37,11 @@ const sacredSites = [
 ];
 
 const yatraElements = [
+  { img: ratnyaliGod, desc: "Ratanyali God" },
   { img: bheemchula, desc: "Bheemchula" },
   { img: pandavPratima, desc: "Pandav Idols" },
   { img: kulhadiChinha, desc: "Ax markings" },
   { img: prachinShilalekh, desc: "Ancient inscriptions (Bablekha)" },
-  { img: ratnyaliGod, desc: "Ratanyali God" },
 ];
 
  function NearBySites() {
