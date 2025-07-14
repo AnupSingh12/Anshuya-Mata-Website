@@ -23,7 +23,7 @@ const sections = [
     image: "/Introduction/Doli.jpg"
   },
   {
-    content: "इस मेले में पुत्र दायिनी माता के आश्रम में बरोही दम्पत्ति ( पुत्र प्राप्ति की कामना से आए हुए ) मन्दिर ट्रस्ट से रसीद प्राप्त कर स्थान आरक्षित करवाते हैं। पुत्राकांक्षी स्त्रियां यहां पर उपवास रहकर माता के दरवार में ध्यानावस्थित होकर बैठ जाती हैं। ध्यानवस्थित अवस्था में ही स्वप्न के माध्यम से माता की कृपा से फल प्राप्त होता है। पुनः प्रातः चार बजे मन्दिर खुलने पर बरोही दम्पत्ति द्वारा माता की पूजा की जाती है एवं पुजारी द्वारा श्रीसंमाद स्वरूप प्रसाद दिया जाता है।",
+    content: "इस मेले में पुत्र दायिनी माता के आश्रम में बरोही दम्पत्ति ( पुत्र प्राप्ति की कामना से आए हुए ) मन्दिर ट्रस्ट से रसीद प्राप्त कर स्थान आरक्षित करवाते हैं। पुत्राकांक्षी स्त्रियां यहां पर उपवास में रहकर माता के दरवार में ध्यानावस्थित होकर बैठ जाती हैं। ध्यानवस्थित अवस्था में ही स्वप्न के माध्यम से माता की कृपा से फल प्राप्त होता है। पुनः प्रातः चार बजे मन्दिर खुलने पर बरोही दम्पत्ति द्वारा माता की पूजा की जाती है एवं पुजारी द्वारा श्रीसंमाद स्वरूप प्रसाद दिया जाता है।",
     image: "/Introduction/MataAtVillage.jpg"
   }
 ];
@@ -49,7 +49,7 @@ function StartingPage(){
                      <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
                        <li class="nav-item"> <a class="nav-link active " aria-current="page" href="/#/pages/hindi_pages/introduction_page">अनसूया आश्रम परिचय</a> </li> 
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/NearBySitesHindi">आश्रम के दर्शनीय स्थल</a> </li>
-                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन </a></li>
+                       <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">आश्रम का प्रबन्धन </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा प्रबंधन</a> </li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/festivalsRitualsHindi">तीज त्यौहार </a></li>
                        <li class="nav-item"> <a class="nav-link" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a> </li>

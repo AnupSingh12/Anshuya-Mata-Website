@@ -25,7 +25,7 @@ const sacredSites = [
   { title: "वन देवी-देवता", desc: "अनसूया आश्रम मन्दिर के पीछे  वन देवी-देवताओं की पत्थर की मूर्तियां स्थापित हैं। प्रतिदिन पूजा के समय सुबह-शायं वन देवी-देवताओं की भी पूजा की जाती है।", img: vanDeviDevta },
   { title: "क्षेत्रपाल", desc: "अनसूया आश्रम के क्षेत्रपाल के रूप में माता अनसूया के अग्रिम वीर अम्दार देवता हैं। जो आश्रम के समीप स्थित हैं। ये अनसूया आश्रम के ही नहीं बल्कि पूरी मण्डल घाटी के क्षेत्रपाल देवता के नाम से जाने एवं पूजे जाते हैं।", img: chetrapal },
   { title: "शिव पार्वती", desc: "अनसूया मन्दिर के पृष्ठ भाग में शिव-पार्वती की पत्थर प्रतिमा है, एवं ठीक पीछे  शिवलिंग जिसकी प्रतिदिन पूजा की जाती है।", img: shivParvati },
-  { title: "दत्तात्रेय लिंग", desc: "अनसूया मन्दिर के पीछे  भगवान दत्तात्रेय लिंग स्वरूप में स्थापित हैं। भगवान दत्तात्रेय की नित्य प्रतिपूजा की जाती रहती है। दत्तात्रेय भगवान के दर्शन हेतु वर्षभर महाराष्ट्र से भी श्रद्धालु आते ही रहते हैं।", img: dattatreLing },
+  { title: "दत्तात्रेय लिंग", desc: "अनसूया मन्दिर के पीछे  भगवान दत्तात्रेय त्रिमुखी लिंग स्वरूप में स्थापित हैं। भगवान दत्तात्रेय की नित्य प्रतिपूजा की जाती रहती है। दत्तात्रेय भगवान के दर्शन हेतु वर्षभर महाराष्ट्र से भी श्रद्धालु आते ही रहते हैं।", img: dattatreLing },
   { title: "अरुणीमन्धन शिला", desc: "मन्दिर के पीछे  पड़ने वाले जंगल में अरूणीमन्थन शिला है। आश्रम में यज्ञ होने पर इसी शिला पर बांस रगडकर आग उत्पन्न की जाती है। इसी अग्नि से यज्ञ कुण्ड प्रज्ज्वलित किया जाता है।", img: arunimanthanRock },
   { title: "चौरी के गणेश", desc: "अनसूया मन्दिर से 500 मी० की दूरी पर मन्दिर जाने वाले यात्रा मार्ग पर सर्व प्रथम गणेश जी की विशाल मूर्ति है। इसे ही चौंरी के गणेश के नाम से जाना जाता है। माता के दर्शन से पूर्व प्रथम पूज्य गणेश जी के दर्शन कर मन्दिर में प्रस्थान किया जाता है।", img: chauriKaGanesh },
   { title: "भैरव नाथ", desc: "गणेश प्रतिमा के नीचे  के जंगल में भगवान भैरव नाथ जी हैं। यात्रा के दौरान भगवान भैरव नाथ के दर्शन अति शुभ माने जाते हैं।", img: bheravnath },
@@ -36,11 +36,11 @@ const sacredSites = [
 ];
 
 const yatraElements = [
+  { img: ratnyaliGod, desc: "रतन्याली देवता" },
   { img: bheemchula, desc: "भीमचूला" },
   { img: pandavPratima, desc: "पाण्डव प्रतिमा" },
   { img: kulhadiChinha, desc: "कुल्हाड़ी चिह्न" },
   { img: prachinShilalekh, desc: "प्राचीन शिलालेख (बबलेखा)" },
-  { img: ratnyaliGod, desc: "रतन्याली देवता" },
 ];
 
 
@@ -62,7 +62,7 @@ export function NearBySitesHindi() {
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/introduction_page">अनसूया आश्रम परिचय</a></li>
                 <li className="nav-item"><a className="nav-link active" href="/#/pages/hindi_pages/NearBySitesHindi">आश्रम के दर्शनीय स्थल</a></li>
-                <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">मंदिर प्रशासन</a></li>
+                <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/TempleAdministrationHindi">आश्रम का प्रबन्धन</a></li>
                 <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/WorshipAndManagementHindi">पूजा प्रबंधन</a></li>
                 <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/festivalsRitualsHindi">तीज त्यौहार</a></li>
                 <li className="nav-item"><a className="nav-link" href="/#/pages/hindi_pages/annualFairHindi">वार्षिक मेला</a></li>
