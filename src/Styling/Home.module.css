@@ -117,7 +117,7 @@
 
 .langBtn:hover,
 .langBtn:focus-visible {
-  background: #f0db42dc;
+  background: #3ac7ffdc;
   color: #fff;
   transform: translateY(-2px);
 }
