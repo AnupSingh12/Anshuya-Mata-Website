@@ -1,0 +1,182 @@
+/*
+ * === Introduction.css ===
+ * Standard CSS styles for the Introduction pages.
+ */
+
+/* --- Page Container --- */
+.intro-pageContainer {
+  background-color: #fcfcfc;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  /* CRITICAL FIXES FOR SCROLL BAR: */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Hides the AOS animation overflow */
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+/* --- Main Content Container --- */
+.intro-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* Ensure this doesn't overflow parent */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* --- Page Header --- */
+.intro-pageHeader {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.intro-slogan {
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  color: #444;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.intro-sloganMeaning {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: #555;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+/* --- ZIG-ZAG CONTENT BLOCKS --- */
+.intro-contentBlock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  /* Ensure flex items don't cause overflow */
+  max-width: 100%;
+}
+
+/* --- Desktop Zig-Zag --- */
+.intro-contentBlock.intro-reverse {
+  flex-direction: row-reverse;
+}
+
+/* --- Content Wrappers (Image & Text) --- */
+.intro-imageWrapper,
+.intro-textWrapper {
+  flex: 1 1 400px;
+  /* Prevent items from breaking container width */
+  max-width: 100%;
+}
+
+.intro-introText {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.intro-introImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.intro-introImg:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Page Navigation --- */
+.intro-paginationNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  gap: 1rem;
+}
+
+.intro-navButton {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #222;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+.intro-navButton:hover {
+  background-color: #007aff;
+  transform: translateY(-2px);
+}
+
+.intro-navButton.intro-prev {
+  background-color: #444;
+}
+
+.intro-navButton.intro-prev:hover {
+  background-color: #007aff;
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 767px) {
+  .intro-pageContainer {
+    padding-top: 80px;
+  }
+
+  .intro-contentBlock {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .intro-contentBlock.intro-reverse {
+    flex-direction: column;
+  }
+
+  .intro-introText {
+    text-align: center;
+  }
+
+  .intro-introImg {
+    height: 300px;
+  }
+
+  .intro-navButton {
+    width: 100%;
+  }
+
+  .intro-paginationNav {
+    flex-direction: column;
+  }
+
+  .intro-navButton.intro-prev {
+    order: 1;
+  }
+
+  .intro-navButton {
+    order: 2;
+  }
+}

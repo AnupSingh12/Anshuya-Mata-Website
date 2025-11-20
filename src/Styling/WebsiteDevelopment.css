@@ -1,4 +1,6 @@
-
+.website-development-body {
+  margin-top: 70px;
+}
 
 /* Background Animation */
 .website-dev-container {
@@ -9,10 +11,14 @@
   overflow: hidden;
   background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
   position: relative;
+  /* Reduced padding-bottom to connect to the navigation area */
+  padding-bottom: 1rem;
 }
 
-.swirling-bg::before {
-  content: '';
+.swirling-bg::before,
+.nav-buttons-swirl-bg::before {
+  /* Added new class here */
+  content: "";
   position: absolute;
   top: -50%;
   left: -50%;
@@ -22,6 +28,25 @@
   animation: swirl 20s linear infinite;
   z-index: 1;
   opacity: 0.08;
+}
+
+/* New Style for Navigation Button Wrapper */
+.nav-buttons-swirl-bg {
+  background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
+  position: relative;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* CRITICAL: Ensure the wrapper itself establishes a stacking context */
+  z-index: 10;
+}
+
+/* CRITICAL: Ensure the content (PreviousButton) inside the wrapper is above the ::before overlay */
+.nav-buttons-swirl-bg > * {
+  position: relative;
+  z-index: 11;
 }
 
 /* Swirl animation */
@@ -82,10 +107,10 @@
 .temple-footer {
   background: linear-gradient(135deg, #301934, #1a0f24);
   padding: 2rem 1rem;
-  margin-top: 3rem;
+  margin-top: 0; /* Adjusted margin-top for continuity */
   text-align: center;
   color: #ffdff5;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
   z-index: 2;
@@ -93,7 +118,7 @@
 }
 
 .temple-footer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 50%;
@@ -106,7 +131,8 @@
 }
 
 @keyframes glowBar {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.3;
     width: 60px;
   }

@@ -1,11 +1,10 @@
-.sacred-sites-section {
+.WholeBody {
   position: relative;
-  background-image: url('../../public/BackgroundImages/nearbyBackground.jpg'); /* Use your own image */
+  background-image: url("../../src/assets/NearBySites/nearbyBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   color: white;
-  
 }
 
 .background-overlay {
@@ -70,12 +69,10 @@
   box-shadow: 0 10px 40px rgba(255, 255, 255, 0.45);
 }
 
-
 /* Optional: Smooth scroll effect */
 html {
   scroll-behavior: smooth;
 }
-
 
 @media (max-width: 768px) {
   .yatra-item {

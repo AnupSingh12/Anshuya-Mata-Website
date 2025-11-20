@@ -11,12 +11,12 @@
   padding: 2rem;
 }
 
-
-.temple-admin-hero::before {
+.temple-admin-hero::before,
+.nav-buttons-background::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../../public/TempleAdminstration/templeAdinistration.jpg');
+  background-image: url("../../src/assets/TempleAdminstration/templeAdinistration.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -25,16 +25,33 @@
   animation: bgFadeIn 2s ease forwards;
 }
 
+.nav-buttons-background {
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+  padding: 3rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
 @keyframes bgFadeIn {
   to {
     opacity: 1;
   }
 }
 
-.overlay {
+.overlay,
+.overlay-nav {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65));
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.65)
+  );
   z-index: -1;
   display: flex;
   justify-content: center;

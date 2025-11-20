@@ -2,13 +2,22 @@
 .donation-new-wrapper {
   min-height: 100vh;
   background: linear-gradient(to bottom right, #fffdf6, #f8f1ea);
-  padding: 4rem 2rem;
-  font-family: 'Georgia', serif;
+  padding: 4rem 2rem 1rem 2rem; /* Reduced bottom padding to connect with nav */
+  font-family: "Georgia", serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #4a2c2a;
   animation: fadeIn 1s ease-in-out both;
+}
+
+/* Navigation Buttons Continuous Section */
+.nav-buttons-donation {
+  /* Set the exact same gradient for seamless continuity */
+  background: linear-gradient(to bottom right, #fffdf6, #f8f1ea);
+  padding: 1rem 2rem 4rem 2rem; /* Add padding around the buttons */
+  position: relative;
+  width: 100%;
 }
 
 /* Hero section */

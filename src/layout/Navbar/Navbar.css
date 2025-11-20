@@ -1,0 +1,212 @@
+/* --- Variables (Scoped to the new root class) --- */
+.hindi-nav-root {
+  --hn-gold: #ffd369;
+  --hn-bg-glass: rgba(0, 0, 0, 0.85);
+  --hn-text-white: #ffffff;
+  --hn-height: 70px;
+}
+
+/* --- Navbar Container (Glassmorphism) --- */
+.hindi-nav-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--hn-height);
+  background: var(--hn-bg-glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+/* --- Content Wrapper --- */
+.nh-content {
+  max-width: 100%; /* Changed from 1200px to 100% */
+  width: 100%;
+  margin: 0; /* Removed 'auto' to stop centering */
+  padding: 0 40px; /* Increased padding slightly for better spacing from edge */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* --- Logo --- */
+.nh-logo {
+  color: var(--hn-text-white);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* --- Desktop Navigation --- */
+/* --- Desktop Navigation --- */
+.nh-links {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Reduced slightly to fit more items */
+  margin: 0;
+  padding: 0;
+}
+
+.nh-link {
+  position: relative;
+  text-decoration: none;
+  color: var(--hn-text-white);
+  font-size: 1rem; /* Increased size for better Hindi readability */
+  font-weight: 500;
+  padding: 8px 16px; /* distinct click area */
+  border-radius: 50px; /* "Pill" shape */
+  transition: all 0.3s ease;
+}
+
+/* Modern Hover Effect (Background Pill) */
+.nh-link:hover {
+  color: var(--hn-gold);
+  background: rgba(255, 255, 255, 0.1); /* Subtle glass effect on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Remove the old underline animation since we are using Pill style now */
+.nh-link::after {
+  display: none;
+}
+
+/* Hover Underline Animation */
+.nh-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--hn-gold);
+  transition: width 0.3s ease;
+}
+
+.nh-link:hover {
+  color: var(--hn-gold);
+}
+
+.nh-link:hover::after {
+  width: 100%;
+}
+
+/* --- Mobile Toggle Button --- */
+.nh-toggle-btn {
+  display: none; /* Hidden on desktop */
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--hn-text-white);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nh-toggle-btn:active {
+  transform: scale(0.9);
+}
+
+/* --- Overlay (Background Dimmer) --- */
+.nh-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s;
+}
+
+.nh-overlay.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* --- Mobile Slide Menu --- */
+.nh-mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 280px;
+  height: 100vh;
+  background: #111;
+  z-index: 1002;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.nh-mobile-menu.open {
+  right: 0;
+  pointer-events: auto;
+}
+
+/* Mobile Header inside Menu */
+.nh-mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nh-mobile-logo-text {
+  color: #ffd369; /* Gold hardcoded since we are inside the menu */
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nh-close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+/* Mobile Links */
+.nh-mobile-list {
+  list-style: none;
+  padding: 20px 10px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.nh-mobile-link {
+  display: block;
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 1.1rem; /* Larger font for mobile tapping */
+  border-radius: 12px; /* Rounded edges for list items */
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+}
+
+.nh-mobile-link:hover {
+  background: rgba(255, 211, 105, 0.15);
+  color: #ffd369;
+  padding-left: 30px; /* Slide effect */
+}
+/* --- Responsive Design --- */
+@media (max-width: 1200px) {
+  .nh-links {
+    display: none;
+  }
+
+  .nh-toggle-btn {
+    display: block;
+  }
+}

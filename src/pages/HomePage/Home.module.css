@@ -1,0 +1,232 @@
+/* === Home.module.css === */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100dvh;
+  height: 100vh;
+  padding: 2rem;
+  gap: 2.5rem;
+
+  /* IMPORTANT: For Vite/Create React App, if your image is in the 
+    /public folder, the path should be '/Home-page/mandir.jpg' 
+  */
+  background-image: url("../../assets/Home-page/mandir.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Subtle zoom animation on the background */
+  animation: bgZoom 30s ease-in-out infinite alternate, fadeIn 1.5s ease-out;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; /* Prevents overflow from animations */
+}
+
+/* Dark overlay to ensure text is readable */
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* Slightly darker for better contrast */
+  z-index: 0;
+}
+
+/* --- CARD REDESIGN ---
+  Using our CSS variables for a clean glass effect 
+*/
+.card {
+  text-align: center;
+  position: relative;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: 1.5rem;
+  padding: clamp(1.5rem, 5vw, 3rem) clamp(1.5rem, 6vw, 4rem);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(var(--blur-glass));
+  -webkit-backdrop-filter: blur(var(--blur-glass));
+
+  /* Staggered animation: uses '--anim-delay' from the JSX */
+  animation: slideUpFade 1.2s ease-out backwards;
+  animation-delay: var(--anim-delay, 0s);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+  width: 100%;
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* --- TYPOGRAPHY ---
+  Using our global fonts and colors 
+*/
+.heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw + 0.5rem, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text-light);
+
+  /* Subtle Shine Animation */
+  background: linear-gradient(120deg, #fff, #eee, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: shine 8s linear infinite, slideUpFade 1.2s ease-out backwards;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+.subheading {
+  font-family: var(--font-heading);
+  font-size: clamp(1.3rem, 2.5vw + 0.3rem, 2rem);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--text-light-muted);
+
+  animation: slideUpFade 1.2s ease-out backwards;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+.regInfo {
+  animation: slideUpFade 1.2s ease-out backwards;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+.regInfo p {
+  color: var(--text-light-muted);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* --- BUTTON REDESIGN ---
+  Modern, pill-shaped, "ghost" buttons
+*/
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  z-index: 1;
+
+  animation: slideUpFade 1.2s ease-out backwards;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+.langBtn {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-light);
+
+  /* Transparent background with a border */
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid var(--text-light);
+
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  transition: all 0.3s ease;
+}
+
+.langBtn:hover,
+.langBtn:focus-visible {
+  /* Fill in on hover */
+  background: var(--text-light);
+  color: var(--text-dark);
+
+  /* Modern hover effect: scale + shadow */
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- ANIMATIONS ---
+*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Reusable slide-up animation */
+@keyframes slideUpFade {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Background image zoom */
+@keyframes bgZoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 110% 110%;
+  }
+}
+
+/* Heading shine effect */
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* --- RESPONSIVE TWEAKS ---
+*/
+@media (max-width: 768px) {
+  .card {
+    padding: clamp(1.2rem, 4vw, 2rem) clamp(1rem, 4vw, 2rem);
+  }
+
+  .heading {
+    font-size: clamp(1.8rem, 5vw, 2.4rem);
+  }
+
+  .subheading {
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
+  }
+
+  .container {
+    /* Ensure background is not over-zoomed on mobile */
+    animation: fadeIn 1.5s ease-out;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttonGroup {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .langBtn {
+    width: 100%;
+  }
+}

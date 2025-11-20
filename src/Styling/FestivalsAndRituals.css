@@ -1,8 +1,8 @@
 .festivals-section {
   position: relative;
   min-height: 100vh;
-  padding: 80px 20px;
-  background-image: url('../../public/Home-page/mandir.jpg');
+  padding: 80px 20px 20px 20px; /* Reduced bottom padding */
+  background-image: url("../../src/assets/Home-page/mandir.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -10,11 +10,34 @@
   z-index: 1;
 }
 
-.overlay {
+/* Base overlay style */
+.overlay,
+.navigation-buttons-background .nav-overlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 0;
+}
+
+/* Styles for the Navigation Buttons section */
+.navigation-buttons-background {
+  position: relative;
+  /* Use the same background image for seamless continuation */
+  background-image: url("../../src/assets/Home-page/mandir.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+  padding: 40px 20px; /* Padding for the buttons content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure the navigation buttons are placed above the overlay */
+.navigation-buttons-background > div:last-child {
+  position: relative;
+  z-index: 2;
 }
 
 .festivals-content {

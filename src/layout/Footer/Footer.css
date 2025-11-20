@@ -1,0 +1,209 @@
+/* --- Footer Variables --- */
+:root {
+  --af-gold: #ffd369;
+  --af-bg-glass: rgba(0, 0, 0, 0.85); /* Matches navbar */
+  --af-text-white: #ffffff;
+  --af-text-grey: #adb5bd;
+}
+
+/* --- Main Footer Container --- */
+.af-footer-container {
+  background: var(--af-bg-glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--af-text-white);
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Content Wrapper (Responsive Grid) --- */
+.af-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  /* This grid layout is automatically responsive.
+    It creates columns that are a minimum of 250px wide.
+    On smaller screens, they will automatically stack.
+  */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* --- Styling for all columns --- */
+.af-footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.af-col-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--af-gold);
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+/* Underline for titles */
+.af-col-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--af-gold);
+}
+
+.af-col-description {
+  font-size: 0.9rem;
+  color: var(--af-text-grey);
+  line-height: 1.6;
+}
+
+/* --- Quick Links Column --- */
+.af-quick-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.af-quick-links li {
+  margin-bottom: 10px;
+}
+
+.af-quick-link {
+  color: var(--af-text-grey);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.af-quick-link:hover {
+  color: var(--af-gold);
+  padding-left: 5px; /* Slight indent on hover */
+}
+
+/* --- Social Media Column --- */
+.af-social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.af-social-icons a {
+  color: var(--af-text-white);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.af-social-icons a:hover {
+  color: var(--af-gold);
+  transform: scale(1.1);
+}
+
+/* --- Bottom Copyright Bar --- */
+.af-bottom-bar {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+  color: var(--af-text-grey);
+}
+
+/* --- Mobile Specific Adjustments --- */
+@media (max-width: 768px) {
+  .af-footer-container {
+    padding-top: 40px;
+  }
+
+  /* On mobile, center the titles */
+  .af-col-title,
+  .af-col-title::after {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .af-col-description {
+    text-align: center;
+  }
+
+  .af-quick-links {
+    text-align: center;
+  }
+
+  .af-social-icons {
+    justify-content: center;
+  }
+}
+/* --- Footer Scoped Variables --- */
+.af-footer-container {
+  --af-gold: #ffd369;
+  --af-bg-glass: rgba(0, 0, 0, 0.9); /* Dark, elegant background */
+  --af-text-grey: #cfcfcf;
+}
+
+/* --- Main Container --- */
+.af-footer-container {
+  width: 100%;
+  background: var(--af-bg-glass);
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 50px 20px 20px; /* Top padding for spacing */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle top border */
+}
+
+/* --- Content Wrapper --- */
+.af-content {
+  max-width: 800px; /* Limits width so text doesn't stretch too far */
+  margin: 0 auto;
+}
+
+/* --- Title Style --- */
+.af-title {
+  color: var(--af-gold);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* --- Description Text --- */
+.af-description {
+  color: var(--af-text-grey);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+/* --- Copyright Section --- */
+.af-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .af-footer-container {
+    padding: 40px 15px 15px;
+  }
+
+  .af-title {
+    font-size: 1.4rem;
+  }
+
+  .af-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}

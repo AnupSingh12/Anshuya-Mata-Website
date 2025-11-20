@@ -1,18 +1,20 @@
 /* Base Styles */
-.body {
+.annual-fair-body {
   background: linear-gradient(to bottom, #fff3e0, #ffe0f0);
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   margin: 0;
   padding: 0;
+  margin-top: 70px;
   color: #333;
   position: relative;
   overflow-x: hidden;
+  /* CRITICAL: Since ::before and ::after are fixed, annual-fair-body sets the gradient */
 }
 
 /* Divine Floating Particles */
-.body::before,
-.body::after {
-  content: '';
+.annual-fair-body::before,
+.annual-fair-body::after {
+  content: "";
   position: fixed;
   width: 100%;
   height: 100%;
@@ -37,11 +39,19 @@
   }
 }
 
+/* New style for Navigation Buttons Wrapper to ensure continuity */
+.nav-buttons-continuous {
+  /* Set the same gradient as the body for visual continuity */
+  background: linear-gradient(to bottom, #fff3e0, #ffe0f0);
+  padding: 20px 0 40px 0; /* Add necessary vertical spacing */
+  position: relative;
+  z-index: 1; /* Ensure buttons content is above the fixed particles */
+}
+
 /* Hero Section */
 .anasuya-hero {
-  background: linear-gradient(120deg, #7b4397, #dc2430);
-  padding: 60px 20px;
-  color: white;
+  padding: 20px;
+  color: #e71f5b;
   text-align: center;
   position: relative;
   z-index: 1;

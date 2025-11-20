@@ -1,0 +1,84 @@
+.intro-paginationNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  gap: 1rem;
+}
+
+.intro-navButton {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #222;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+.intro-navButton:hover {
+  background-color: #007aff;
+  transform: translateY(-2px);
+}
+
+.intro-navButton.intro-prev {
+  background-color: #444;
+}
+
+.intro-navButton.intro-prev:hover {
+  background-color: #007aff;
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 767px) {
+  .intro-pageContainer {
+    padding-top: 80px;
+  }
+
+  .intro-contentBlock {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .intro-contentBlock.intro-reverse {
+    flex-direction: column;
+  }
+
+  .intro-introText {
+    text-align: center;
+  }
+
+  .intro-introImg {
+    height: 300px;
+  }
+
+  .intro-navButton {
+    width: 100%;
+  }
+
+  .intro-paginationNav {
+    flex-direction: column;
+  }
+
+  .intro-navButton.intro-prev {
+    order: 1;
+  }
+
+  .intro-navButton {
+    order: 2;
+  }
+}
