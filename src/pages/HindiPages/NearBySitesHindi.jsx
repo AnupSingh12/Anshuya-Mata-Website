@@ -6,17 +6,17 @@ import NavbarHindi from "../../layout/Navbar/NavbarHindi.jsx";
 import FooterHindi from "../../layout/Footer/FooterHindi.jsx";
 import NavigationButtons from "./../../layout/NavigationButtons/NavigationButtons.jsx";
 
-import vanDeviDevta from "../../assets/NearBySites/vanDeviDevta.jpg";
-import chetrapal from "../../assets/NearBySites/chetrapal.jpg";
-import shivParvati from "../../assets/NearBySites/shiv-parvati.jpg";
-import dattatreLing from "../../assets/NearBySites/detatreLing.jpg";
-import arunimanthanRock from "../../assets/NearBySites/ArunimanthanRock.png";
-import chauriKaGanesh from "../../assets/NearBySites/chauriKaGanesh.jpg";
-import bheravnath from "../../assets/NearBySites/bheravnath.jpg";
-import kumkumTree from "../../assets/NearBySites/KumkumTree.png";
-import vatVriksh from "../../assets/NearBySites/vatVriksh-2.png";
-import vatrani from "../../assets/NearBySites/vatrani.png";
-import atriWaterFall from "../../assets/NearBySites/AtriWaterFall.webp";
+import vanDeviDevta from "../../assets/NearbySites/vanDeviDevta.jpg";
+import chetrapal from "../../assets/NearbySites/chetrapal.jpg";
+import shivParvati from "../../assets/NearbySites/shiv-parvati.jpg";
+import dattatreLing from "../../assets/NearbySites/detatreLing.jpg";
+import arunimanthanRock from "../../assets/NearbySites/ArunimanthanRock.png";
+import chauriKaGanesh from "../../assets/NearbySites/chauriKaGanesh.jpg";
+import bheravnath from "../../assets/NearbySites/bheravnath.jpg";
+import kumkumTree from "../../assets/NearbySites/KumkumTree.png";
+import vatVriksh from "../../assets/NearbySites/vatVriksh-2.png";
+import vatrani from "../../assets/NearbySites/vatrani.png";
+import atriWaterFall from "../../assets/NearbySites/AtriWaterFall.webp";
 
 import bheemchula from "../../assets/YatraPath/bheemchula.jpg";
 import pandavPratima from "../../assets/YatraPath/pandavPratima.jpg";

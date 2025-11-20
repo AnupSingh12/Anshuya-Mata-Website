@@ -1,6 +1,6 @@
 .WholeBody {
   position: relative;
-  background-image: url("../../src/assets/NearBySites/nearbyBackground.jpg");
+  background-image: url("../assets/NearbySites/nearbyBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
