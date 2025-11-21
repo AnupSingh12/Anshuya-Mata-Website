@@ -58,7 +58,7 @@ export default function NavbarEnglish() {
       {/* Mobile Slide Menu */}
       <div className={`nh-mobile-menu ${open ? "open" : ""}`}>
         <div className="nh-mobile-header">
-          <span className="nh-mobile-logo-text">मेन्यू</span>
+          <span className="nh-mobile-logo-text">Menu</span>
           <button className="nh-close-btn" onClick={() => setOpen(false)}>
             ✕
           </button>
